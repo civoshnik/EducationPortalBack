@@ -1,0 +1,763 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.API\\Enrollment.API.csproj": {}
+  },
+  "projects": {
+    "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj",
+        "projectName": "Auth.Domain",
+        "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj",
+        "packagesPath": "C:\\Users\\LexA\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LexA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Course.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Course.Domain.csproj",
+        "projectName": "Course.Domain",
+        "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Course.Domain.csproj",
+        "packagesPath": "C:\\Users\\LexA\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LexA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.API\\Enrollment.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.API\\Enrollment.API.csproj",
+        "projectName": "Enrollment.API",
+        "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.API\\Enrollment.API.csproj",
+        "packagesPath": "C:\\Users\\LexA\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LexA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Shared.Application.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Shared.Application.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.Domain\\Enrollment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.Domain\\Enrollment.Domain.csproj",
+        "projectName": "Enrollment.Domain",
+        "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.Domain\\Enrollment.Domain.csproj",
+        "packagesPath": "C:\\Users\\LexA\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LexA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharp\\Kursach\\EducationPortal\\Services\\NotificationService\\Notification.Domain\\Notification.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\NotificationService\\Notification.Domain\\Notification.Domain.csproj",
+        "projectName": "Notification.Domain",
+        "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\NotificationService\\Notification.Domain\\Notification.Domain.csproj",
+        "packagesPath": "C:\\Users\\LexA\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\NotificationService\\Notification.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LexA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Order.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Order.Domain.csproj",
+        "projectName": "Order.Domain",
+        "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Order.Domain.csproj",
+        "packagesPath": "C:\\Users\\LexA\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LexA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\Result.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\Result.Domain.csproj",
+        "projectName": "Result.Domain",
+        "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\Result.Domain.csproj",
+        "packagesPath": "C:\\Users\\LexA\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LexA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Shared.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Shared.Application.csproj",
+        "projectName": "Shared.Application",
+        "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Shared.Application.csproj",
+        "packagesPath": "C:\\Users\\LexA\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LexA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Course.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Course.Domain.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.Domain\\Enrollment.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.Domain\\Enrollment.Domain.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\NotificationService\\Notification.Domain\\Notification.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\NotificationService\\Notification.Domain\\Notification.Domain.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Order.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Order.Domain.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\Result.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\Result.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
+        "projectName": "Shared.Infrastructure",
+        "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\LexA\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LexA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Course.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Course.Domain.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.Domain\\Enrollment.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.Domain\\Enrollment.Domain.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Order.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Order.Domain.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\Result.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\Result.Domain.csproj"
+              },
+              "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Shared.Application.csproj": {
+                "projectPath": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Shared.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "Services\\AuthService\\Auth.API\\Auth.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\CourseService\\Course.API\\Course.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\EnrollmentService\\Enrollment.API\\Enrollment.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\NotificationService\\Notification.API\\Notification.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\OrderService\\Order.API\\Order.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\ResultService\\Result.API\\Result.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ApiGateway\\ApiGateway\\ApiGateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

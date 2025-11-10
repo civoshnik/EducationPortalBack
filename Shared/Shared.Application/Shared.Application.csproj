@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Services\AuthService\Auth.Domain\Auth.Domain.csproj" />
+    <ProjectReference Include="..\..\Services\CourseService\Course.Domain\Course.Domain.csproj" />
+    <ProjectReference Include="..\..\Services\EnrollmentService\Enrollment.Domain\Enrollment.Domain.csproj" />
+    <ProjectReference Include="..\..\Services\NotificationService\Notification.Domain\Notification.Domain.csproj" />
+    <ProjectReference Include="..\..\Services\OrderService\Order.Domain\Order.Domain.csproj" />
+    <ProjectReference Include="..\..\Services\ResultService\Result.Domain\Result.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gYGHhP/nHwGPs2CXz7HBkbjQarWb3nBrLYC6upHZZSQ=",
+  "Source": "Enrollment.API",
+  "BasePath": "_content/Enrollment.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
