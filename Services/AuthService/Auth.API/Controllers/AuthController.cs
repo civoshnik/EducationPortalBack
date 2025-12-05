@@ -1,4 +1,7 @@
 ﻿using Auth.Application.Commands.Autorization;
+using Auth.Application.Commands.DeleteUser;
+using Auth.Application.Commands.EditEmailUser;
+using Auth.Application.Commands.EditPhoneUser;
 using Auth.Application.Commands.RegisterUser;
 using Auth.Application.Queries;
 using Auth.Application.Queries.GetPaginatedStudentList;
@@ -58,6 +61,27 @@ namespace Auth.API.Controllers
         {
             var result = await _mediator.Send(new GetPaginatedTeacherListQuery(page, pageSize));
             return Ok(result);
+        }
+
+        [HttpDelete("deleteUser/{id}")]
+        public async Task<IActionResult> DeleteUser(Guid id)
+        {
+            await _mediator.Send(new DeleteUserCommand { UserId = id });
+            return Ok();
+        }
+
+        [HttpPost("editPhoneUser")]
+        public async Task<IActionResult> EditPhone([FromBody] EditPhoneUserCommand command)
+        {
+            await _mediator.Send(command);
+            return NoContent();
+        }
+
+        [HttpPost("editEmailUser")]
+        public async Task<IActionResult> EditEmail([FromBody] EditEmailUserCommand command)
+        {
+            await _mediator.Send(command);
+            return Ok();
         }
     }
 }

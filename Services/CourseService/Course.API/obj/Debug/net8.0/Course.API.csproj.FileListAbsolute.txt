@@ -256,3 +256,4 @@ D:\CSharp\Kursach\EducationPortal\Services\CourseService\Course.API\bin\Debug\ne
 D:\CSharp\Kursach\EducationPortal\Services\CourseService\Course.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\CSharp\Kursach\EducationPortal\Services\CourseService\Course.API\bin\Debug\net8.0\Course.Application.dll
 D:\CSharp\Kursach\EducationPortal\Services\CourseService\Course.API\bin\Debug\net8.0\Course.Application.pdb
+D:\CSharp\Kursach\EducationPortal\Services\CourseService\Course.API\obj\Debug\net8.0\Course.API.sourcelink.json

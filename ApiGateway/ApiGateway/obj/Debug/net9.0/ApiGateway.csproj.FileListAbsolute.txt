@@ -136,3 +136,4 @@ D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\obj\Debug\net9.0\staticw
 D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\obj\Debug\net9.0\ApiGateway.csproj.Up2Date
 D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\obj\Debug\net9.0\ApiGateway.genruntimeconfig.cache
 D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\obj\Debug\net9.0\ref\ApiGateway.dll
+D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\obj\Debug\net9.0\ApiGateway.sourcelink.json

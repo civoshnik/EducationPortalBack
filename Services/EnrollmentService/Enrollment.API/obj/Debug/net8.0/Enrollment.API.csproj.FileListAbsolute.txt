@@ -245,3 +245,4 @@ D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.API\obj\
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.API\obj\Debug\net8.0\Enrollme.13B56416.Up2Date
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.API\obj\Debug\net8.0\Enrollment.API.genruntimeconfig.cache
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.API\obj\Debug\net8.0\ref\Enrollment.API.dll
+D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.API\obj\Debug\net8.0\Enrollment.API.sourcelink.json

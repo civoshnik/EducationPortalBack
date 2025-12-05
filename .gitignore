@@ -1,0 +1,48 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.dbmdl
+*.pidb
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+*.cache
+*.log
+*.tlog
+*.ide
+
+# EF Core migrations snapshots
+**/Migrations/*ModelSnapshot.cs
+
+# ASP.NET Core secrets
+secrets.json
+appsettings.*.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# Resharper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Others
+*.DS_Store
+Thumbs.db

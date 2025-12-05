@@ -37,3 +37,4 @@ D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Application\obj\Debu
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Application\obj\Debug\net8.0\refint\Auth.Application.dll
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Application\obj\Debug\net8.0\Auth.Application.pdb
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Application\obj\Debug\net8.0\ref\Auth.Application.dll
+D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Application\obj\Debug\net8.0\Auth.Application.sourcelink.json

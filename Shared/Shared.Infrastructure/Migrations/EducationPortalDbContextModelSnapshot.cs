@@ -22,6 +22,19 @@ namespace Shared.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Auth.Domain.Models.BlacklistEntity", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset>("BlacklistedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Blacklist");
+                });
+
             modelBuilder.Entity("Auth.Domain.Models.UserEntity", b =>
                 {
                     b.Property<Guid>("UserId")
@@ -103,6 +116,21 @@ namespace Shared.Infrastructure.Migrations
                     b.HasKey("CourseId");
 
                     b.ToTable("Courses");
+                });
+
+            modelBuilder.Entity("Course.Domain.Models.LearningProgressEntity", b =>
+                {
+                    b.Property<Guid>("LessonId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("SubscriptionId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("LessonId", "SubscriptionId");
+
+                    b.HasIndex("SubscriptionId");
+
+                    b.ToTable("LearningProgress");
                 });
 
             modelBuilder.Entity("Course.Domain.Models.LessonEntity", b =>
@@ -233,20 +261,47 @@ namespace Shared.Infrastructure.Migrations
                     b.ToTable("Tests");
                 });
 
-            modelBuilder.Entity("Enrollment.Domain.Models.EnrollmentEntity", b =>
+            modelBuilder.Entity("Course.Domain.Models.TestingProgressEntity", b =>
                 {
-                    b.Property<Guid>("EnrollmentId")
+                    b.Property<Guid>("TestingProgressId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<DateTime?>("CompletedAt")
+                    b.Property<int>("AssignedGrade")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Grade")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("PassedAt")
                         .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("SubscriptionId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("TestId")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("TimeSpentSeconds")
+                        .HasColumnType("integer");
+
+                    b.HasKey("TestingProgressId");
+
+                    b.HasIndex("SubscriptionId");
+
+                    b.HasIndex("TestId");
+
+                    b.ToTable("TestingProgresses");
+                });
+
+            modelBuilder.Entity("Enrollment.Domain.Models.SubscriptionEntity", b =>
+                {
+                    b.Property<Guid>("SubscriptionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
 
                     b.Property<Guid>("CourseId")
                         .HasColumnType("uuid");
-
-                    b.Property<DateTime>("EnrolledAt")
-                        .HasColumnType("timestamp with time zone");
 
                     b.Property<decimal>("ProgressPercent")
                         .HasColumnType("numeric");
@@ -255,14 +310,49 @@ namespace Shared.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<DateTime>("SubscribedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("SubscriptionEndsAt")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
 
-                    b.HasKey("EnrollmentId");
+                    b.HasKey("SubscriptionId");
+
+                    b.HasIndex("CourseId");
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Enrollments");
+                    b.ToTable("Subscriptions");
+                });
+
+            modelBuilder.Entity("Order.Domain.Models.CartItemEntity", b =>
+                {
+                    b.Property<Guid>("CartItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("ServiceId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("CartItemId");
+
+                    b.HasIndex("ServiceId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("CartItems");
                 });
 
             modelBuilder.Entity("Order.Domain.Models.OrderEntity", b =>
@@ -277,9 +367,8 @@ namespace Shared.Infrastructure.Migrations
                     b.Property<DateTime?>("ModifiedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
 
                     b.Property<decimal>("TotalPrice")
                         .HasColumnType("numeric");
@@ -296,25 +385,19 @@ namespace Shared.Infrastructure.Migrations
 
             modelBuilder.Entity("Order.Domain.Models.OrderServiceEntity", b =>
                 {
-                    b.Property<Guid>("OrderServiceId")
-                        .ValueGeneratedOnAdd()
+                    b.Property<Guid>("OrderId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("OrderId")
+                    b.Property<Guid>("ServiceId")
                         .HasColumnType("uuid");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("integer");
 
-                    b.Property<Guid>("ServiceId")
-                        .HasColumnType("uuid");
-
                     b.Property<decimal>("TotalPrice")
                         .HasColumnType("numeric");
 
-                    b.HasKey("OrderServiceId");
-
-                    b.HasIndex("OrderId");
+                    b.HasKey("OrderId", "ServiceId");
 
                     b.HasIndex("ServiceId");
 
@@ -337,48 +420,12 @@ namespace Shared.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
                     b.HasKey("ServiceId");
 
                     b.ToTable("Services");
-                });
-
-            modelBuilder.Entity("Result.Domain.Models.ResultEntity", b =>
-                {
-                    b.Property<Guid>("ResultId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<int>("AttemptNumber")
-                        .HasColumnType("integer");
-
-                    b.Property<DateTime>("CompletedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<bool>("IsPassed")
-                        .HasColumnType("boolean");
-
-                    b.Property<int>("MaxRating")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("Rating")
-                        .HasColumnType("integer");
-
-                    b.Property<Guid>("TestId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTime?>("WastedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.HasKey("ResultId");
-
-                    b.HasIndex("TestId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Results");
                 });
 
             modelBuilder.Entity("Result.Domain.Models.StudentAnswerEntity", b =>
@@ -396,7 +443,7 @@ namespace Shared.Infrastructure.Migrations
                     b.Property<Guid>("QuestionId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("ResultId")
+                    b.Property<Guid>("TestingProgressId")
                         .HasColumnType("uuid");
 
                     b.HasKey("StudentAnswerId");
@@ -405,9 +452,33 @@ namespace Shared.Infrastructure.Migrations
 
                     b.HasIndex("QuestionId");
 
-                    b.HasIndex("ResultId");
+                    b.HasIndex("TestingProgressId");
 
                     b.ToTable("StudentAnswers");
+                });
+
+            modelBuilder.Entity("Auth.Domain.Models.BlacklistEntity", b =>
+                {
+                    b.HasOne("Auth.Domain.Models.UserEntity", null)
+                        .WithOne()
+                        .HasForeignKey("Auth.Domain.Models.BlacklistEntity", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Course.Domain.Models.LearningProgressEntity", b =>
+                {
+                    b.HasOne("Course.Domain.Models.LessonEntity", null)
+                        .WithMany()
+                        .HasForeignKey("LessonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Enrollment.Domain.Models.SubscriptionEntity", null)
+                        .WithMany()
+                        .HasForeignKey("SubscriptionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Course.Domain.Models.LessonEntity", b =>
@@ -446,8 +517,44 @@ namespace Shared.Infrastructure.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Enrollment.Domain.Models.EnrollmentEntity", b =>
+            modelBuilder.Entity("Course.Domain.Models.TestingProgressEntity", b =>
                 {
+                    b.HasOne("Enrollment.Domain.Models.SubscriptionEntity", null)
+                        .WithMany()
+                        .HasForeignKey("SubscriptionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Course.Domain.Models.TestEntity", null)
+                        .WithMany()
+                        .HasForeignKey("TestId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Enrollment.Domain.Models.SubscriptionEntity", b =>
+                {
+                    b.HasOne("Course.Domain.Models.CourseEntity", null)
+                        .WithMany()
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Auth.Domain.Models.UserEntity", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Order.Domain.Models.CartItemEntity", b =>
+                {
+                    b.HasOne("Order.Domain.Models.ServiceEntity", null)
+                        .WithMany()
+                        .HasForeignKey("ServiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Auth.Domain.Models.UserEntity", null)
                         .WithMany()
                         .HasForeignKey("UserId")
@@ -479,21 +586,6 @@ namespace Shared.Infrastructure.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Result.Domain.Models.ResultEntity", b =>
-                {
-                    b.HasOne("Course.Domain.Models.TestEntity", null)
-                        .WithMany()
-                        .HasForeignKey("TestId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Auth.Domain.Models.UserEntity", null)
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("Result.Domain.Models.StudentAnswerEntity", b =>
                 {
                     b.HasOne("Course.Domain.Models.QuestionAnswerEntity", null)
@@ -508,9 +600,9 @@ namespace Shared.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Result.Domain.Models.ResultEntity", null)
+                    b.HasOne("Course.Domain.Models.TestingProgressEntity", null)
                         .WithMany()
-                        .HasForeignKey("ResultId")
+                        .HasForeignKey("TestingProgressId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

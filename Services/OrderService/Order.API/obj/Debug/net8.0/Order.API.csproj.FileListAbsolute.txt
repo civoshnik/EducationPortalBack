@@ -245,3 +245,17 @@ D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\obj\Debug\net8
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\obj\Debug\net8.0\Order.API.csproj.Up2Date
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\obj\Debug\net8.0\Order.API.genruntimeconfig.cache
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\obj\Debug\net8.0\ref\Order.API.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\FluentValidation.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\MediatR.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\Order.Application.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\Order.Infrastructure.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\Order.Application.pdb
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\Order.Infrastructure.pdb
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\obj\Debug\net8.0\Order.API.sourcelink.json

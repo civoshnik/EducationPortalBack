@@ -37,3 +37,4 @@ D:\CSharp\Kursach\EducationPortal\Services\CourseService\Course.Application\bin\
 D:\CSharp\Kursach\EducationPortal\Services\CourseService\Course.Application\bin\Debug\net8.0\Order.Domain.pdb
 D:\CSharp\Kursach\EducationPortal\Services\CourseService\Course.Application\bin\Debug\net8.0\Result.Domain.pdb
 D:\CSharp\Kursach\EducationPortal\Services\CourseService\Course.Application\obj\Debug\net8.0\Course.A.7B050BB7.Up2Date
+D:\CSharp\Kursach\EducationPortal\Services\CourseService\Course.Application\obj\Debug\net8.0\Course.Application.sourcelink.json

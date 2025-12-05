@@ -2,15 +2,11 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Shared.Application.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Shared.Application.Models;
 
 namespace Auth.Application.Queries.GetPaginatedTeacherList
 {
-    public class GetPaginatedTeacherListQueryHandler : IRequestHandler<GetPaginatedTeacherListQuery, List<UserEntity>>
+    public class GetPaginatedTeacherListQueryHandler : IRequestHandler<GetPaginatedTeacherListQuery, PaginatedResult<UserEntity>>
     {
         private readonly IUnitOfWork _unitOfWork;
 
@@ -18,14 +14,20 @@ namespace Auth.Application.Queries.GetPaginatedTeacherList
         {
             _unitOfWork = unitOfWork;
         }
-        public async Task<List<UserEntity>> Handle(GetPaginatedTeacherListQuery request, CancellationToken cancellationToken)
+
+        public async Task<PaginatedResult<UserEntity>> Handle(GetPaginatedTeacherListQuery request, CancellationToken cancellationToken)
         {
-            return await _unitOfWork.Users
-                .Where(u => u.Role == UserRole.Учитель)
-                .OrderByDescending(c => c.CreatedAt)
-                .Skip((request.Page - 1) * request.PageSize)
-                .Take(request.PageSize)
-                .ToListAsync(cancellationToken);
+            var query = _unitOfWork.Users.Where(u => u.Role == UserRole.Учитель).OrderByDescending(c => c.CreatedAt);
+
+            var items = await query.Skip((request.Page - 1) * request.PageSize).Take(request.PageSize).ToListAsync(cancellationToken);
+
+            var totalCount = await query.CountAsync(cancellationToken);
+
+            return new PaginatedResult<UserEntity>
+            {
+                Items = items,
+                TotalCount = totalCount
+            };
         }
     }
 }

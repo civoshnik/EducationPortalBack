@@ -27,3 +27,4 @@ D:\CSharp\Kursach\EducationPortal\Shared\Shared.Infrastructure\obj\Debug\net8.0\
 D:\CSharp\Kursach\EducationPortal\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.pdb
 D:\CSharp\Kursach\EducationPortal\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.genruntimeconfig.cache
 D:\CSharp\Kursach\EducationPortal\Shared\Shared.Infrastructure\obj\Debug\net8.0\ref\Shared.Infrastructure.dll
+D:\CSharp\Kursach\EducationPortal\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.sourcelink.json

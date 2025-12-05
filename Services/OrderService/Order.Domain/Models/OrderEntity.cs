@@ -7,13 +7,20 @@ using System.Threading.Tasks;
 
 namespace Order.Domain.Models
 {
+    public enum OrderStatus
+    {
+        Draft = 0,
+        Confirmed = 1,
+        Paid = 2,
+        Cancelled = 3
+    }
     public class OrderEntity
     {
         [Key]
         public Guid OrderId { get; set; }
         public Guid UserId { get; set; }
         public decimal TotalPrice { get; set; }
-        public string Status { get; set; }
+        public OrderStatus Status { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? ModifiedAt { get; set; }
     }

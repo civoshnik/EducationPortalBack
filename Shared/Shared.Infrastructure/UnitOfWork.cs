@@ -23,12 +23,17 @@ namespace Shared.Infrastructure
         public DbSet<TestEntity> Tests => _context.Tests;
         public DbSet<QuestionEntity> Questions => _context.Questions;
         public DbSet<QuestionAnswerEntity> QuestionAnswers => _context.QuestionAnswers;
-        public DbSet<ResultEntity> Results => _context.Results;
+
+        public DbSet<SubscriptionEntity> Subscriptions => _context.Subscriptions;
+        public DbSet<LearningProgressEntity> LearningProgress => _context.LearningProgress;
+        public DbSet<TestingProgressEntity> TestingProgresses => _context.TestingProgresses;
         public DbSet<StudentAnswerEntity> StudentAnswers => _context.StudentAnswers;
-        public DbSet<EnrollmentEntity> Enrollments => _context.Enrollments;
+        public DbSet<BlacklistEntity> Blacklist => _context.Blacklist;
+
         public DbSet<OrderEntity> Orders => _context.Orders;
         public DbSet<ServiceEntity> Services => _context.Services;
         public DbSet<OrderServiceEntity> OrderServices => _context.OrderServices;
+        public DbSet<CartItemEntity> CartItems => _context.CartItems;
 
         public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
             => _context.SaveChangesAsync(cancellationToken);

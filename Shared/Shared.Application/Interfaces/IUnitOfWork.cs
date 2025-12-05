@@ -15,12 +15,17 @@ namespace Shared.Application.Interfaces
         DbSet<TestEntity> Tests { get; }
         DbSet<QuestionEntity> Questions { get; }
         DbSet<QuestionAnswerEntity> QuestionAnswers { get; }
-        DbSet<ResultEntity> Results { get; }
+
+        DbSet<SubscriptionEntity> Subscriptions { get; }
+        DbSet<LearningProgressEntity> LearningProgress { get; }
+        DbSet<TestingProgressEntity> TestingProgresses { get; }
         DbSet<StudentAnswerEntity> StudentAnswers { get; }
-        DbSet<EnrollmentEntity> Enrollments { get; }
+        DbSet<BlacklistEntity> Blacklist { get; }
+
         DbSet<OrderEntity> Orders { get; }
         DbSet<ServiceEntity> Services { get; }
         DbSet<OrderServiceEntity> OrderServices { get; }
+        DbSet<CartItemEntity> CartItems { get; }
 
         Task<int> SaveChangesAsync(CancellationToken cancelletionToken = default);
     }

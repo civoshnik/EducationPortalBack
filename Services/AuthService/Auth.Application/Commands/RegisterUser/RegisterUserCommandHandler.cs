@@ -18,32 +18,32 @@ namespace Auth.Application.Commands.RegisterUser
         {
             if (request.Login == null)
             {
-                throw new Exception("Заполните");
+                throw new Exception("Заполните логин");
             }
 
             if (request.Password == null)
             {
-                throw new Exception("Заполните");
+                throw new Exception("Заполните пароль");
             }
 
             if (request.FirstName == null)
             {
-                throw new Exception("Заполните");
+                throw new Exception("Заполните имя");
             }
 
             if (request.LastName == null)
             {
-                throw new Exception("Заполните");
+                throw new Exception("Заполните фамилию");
             }
 
             if (request.Phone == null)
             {
-                throw new Exception("Заполните");
+                throw new Exception("Заполните телефон");
             }
 
             if (request.Email == null)
             {
-                throw new Exception("Заполните");
+                throw new Exception("Заполните email");
             }
 
             UserEntity user = new UserEntity();

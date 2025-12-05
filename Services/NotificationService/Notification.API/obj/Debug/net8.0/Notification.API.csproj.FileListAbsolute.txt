@@ -245,3 +245,4 @@ D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.API\
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.API\obj\Debug\net8.0\Notifica.1902B2E6.Up2Date
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.API\obj\Debug\net8.0\Notification.API.genruntimeconfig.cache
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.API\obj\Debug\net8.0\ref\Notification.API.dll
+D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.API\obj\Debug\net8.0\Notification.API.sourcelink.json

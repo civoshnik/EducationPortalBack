@@ -20,3 +20,4 @@ D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Domain\o
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Domain\obj\Debug\net8.0\refint\Enrollment.Domain.dll
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Domain\obj\Debug\net8.0\Enrollment.Domain.pdb
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Domain\obj\Debug\net8.0\ref\Enrollment.Domain.dll
+D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Domain\obj\Debug\net8.0\Enrollment.Domain.sourcelink.json

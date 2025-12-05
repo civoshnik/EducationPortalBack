@@ -20,3 +20,4 @@ D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Domain\obj\Debug\net
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Domain\obj\Debug\net8.0\refint\Auth.Domain.dll
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Domain\obj\Debug\net8.0\Auth.Domain.pdb
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Domain\obj\Debug\net8.0\ref\Auth.Domain.dll
+D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Domain\obj\Debug\net8.0\Auth.Domain.sourcelink.json

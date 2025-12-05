@@ -209,3 +209,4 @@ D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.API\obj\Debug\ne
 D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.API\obj\Debug\net8.0\Result.API.csproj.Up2Date
 D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.API\obj\Debug\net8.0\Result.API.genruntimeconfig.cache
 D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.API\obj\Debug\net8.0\ref\Result.API.dll
+D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.API\obj\Debug\net8.0\Result.API.sourcelink.json

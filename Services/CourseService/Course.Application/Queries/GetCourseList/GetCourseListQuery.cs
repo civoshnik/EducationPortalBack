@@ -1,15 +1,8 @@
 ﻿using Course.Domain.Models;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Shared.Application.Models;
 
 namespace Course.Application.Queries.GetCourseList
 {
-    public record GetCourseListQuery(int Page, int PageSize) : IRequest<List<CourseEntity>>
-    {
-
-    }
+    public record GetCourseListQuery(int Page, int PageSize) : IRequest<PaginatedResult<CourseEntity>>;
 }
