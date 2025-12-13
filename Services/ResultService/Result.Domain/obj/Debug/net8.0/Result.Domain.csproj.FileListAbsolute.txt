@@ -16,8 +16,8 @@ D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.Domain\obj\Debug
 D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.Domain\obj\Debug\net8.0\Result.Domain.AssemblyInfoInputs.cache
 D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.Domain\obj\Debug\net8.0\Result.Domain.AssemblyInfo.cs
 D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.Domain\obj\Debug\net8.0\Result.Domain.csproj.CoreCompileInputs.cache
+D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.Domain\obj\Debug\net8.0\Result.Domain.sourcelink.json
 D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.Domain\obj\Debug\net8.0\Result.Domain.dll
 D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.Domain\obj\Debug\net8.0\refint\Result.Domain.dll
 D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.Domain\obj\Debug\net8.0\Result.Domain.pdb
 D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.Domain\obj\Debug\net8.0\ref\Result.Domain.dll
-D:\CSharp\Kursach\EducationPortal\Services\ResultService\Result.Domain\obj\Debug\net8.0\Result.Domain.sourcelink.json

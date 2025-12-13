@@ -26,6 +26,7 @@ namespace Shared.Application.Interfaces
         DbSet<ServiceEntity> Services { get; }
         DbSet<OrderServiceEntity> OrderServices { get; }
         DbSet<CartItemEntity> CartItems { get; }
+        DbSet<EmailConfirmTokenEntity> EmailConfirmTokens { get; }
 
         Task<int> SaveChangesAsync(CancellationToken cancelletionToken = default);
     }

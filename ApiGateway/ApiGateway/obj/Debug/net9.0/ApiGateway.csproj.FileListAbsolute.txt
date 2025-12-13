@@ -137,3 +137,5 @@ D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\obj\Debug\net9.0\ApiGate
 D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\obj\Debug\net9.0\ApiGateway.genruntimeconfig.cache
 D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\obj\Debug\net9.0\ref\ApiGateway.dll
 D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\obj\Debug\net9.0\ApiGateway.sourcelink.json
+D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\bin\Debug\net9.0\Email.Domain.dll
+D:\CSharp\Kursach\EducationPortal\ApiGateway\ApiGateway\bin\Debug\net9.0\Email.Domain.pdb

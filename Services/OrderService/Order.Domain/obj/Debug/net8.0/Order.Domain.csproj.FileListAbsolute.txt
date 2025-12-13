@@ -16,8 +16,8 @@ D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Domain\obj\Debug\n
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Domain\obj\Debug\net8.0\Order.Domain.AssemblyInfoInputs.cache
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Domain\obj\Debug\net8.0\Order.Domain.AssemblyInfo.cs
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Domain\obj\Debug\net8.0\Order.Domain.csproj.CoreCompileInputs.cache
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Domain\obj\Debug\net8.0\Order.Domain.sourcelink.json
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Domain\obj\Debug\net8.0\Order.Domain.dll
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Domain\obj\Debug\net8.0\refint\Order.Domain.dll
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Domain\obj\Debug\net8.0\Order.Domain.pdb
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Domain\obj\Debug\net8.0\ref\Order.Domain.dll
-D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Domain\obj\Debug\net8.0\Order.Domain.sourcelink.json

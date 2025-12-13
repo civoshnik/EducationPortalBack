@@ -18,6 +18,7 @@ D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Applicat
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Application\obj\Debug\net8.0\Enrollment.Application.AssemblyInfoInputs.cache
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Application\obj\Debug\net8.0\Enrollment.Application.AssemblyInfo.cs
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Application\obj\Debug\net8.0\Enrollment.Application.csproj.CoreCompileInputs.cache
+D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Application\obj\Debug\net8.0\Enrollment.Application.sourcelink.json
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Application\obj\Debug\net8.0\Enrollment.Application.dll
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Application\obj\Debug\net8.0\refint\Enrollment.Application.dll
 D:\CSharp\Kursach\EducationPortal\Services\EnrollmentService\Enrollment.Application\obj\Debug\net8.0\Enrollment.Application.pdb

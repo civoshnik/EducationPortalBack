@@ -21,6 +21,7 @@ D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Infrastructure\obj
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.AssemblyInfoInputs.cache
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.AssemblyInfo.cs
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.sourcelink.json
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.dll
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Infrastructure\obj\Debug\net8.0\refint\Order.Infrastructure.dll
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.pdb

@@ -29,6 +29,10 @@
       {
         "Path": "ApiGateway\\ApiGateway\\ApiGateway.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "Services\\EmailService\\Email.API\\Email.API.csproj",
+        "Action": "Start"
       }
     ]
   }

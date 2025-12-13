@@ -488,6 +488,14 @@
           }
         }
       },
+      "Email.Domain/1.0.0": {
+        "runtime": {
+          "Email.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Enrollment.Domain/1.0.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "5.0.0"
@@ -533,6 +541,7 @@
         "dependencies": {
           "Auth.Domain": "1.0.0",
           "Course.Domain": "1.0.0",
+          "Email.Domain": "1.0.0",
           "Enrollment.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Notification.Domain": "1.0.0",
@@ -898,6 +907,11 @@
       "sha512": ""
     },
     "Course.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Email.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

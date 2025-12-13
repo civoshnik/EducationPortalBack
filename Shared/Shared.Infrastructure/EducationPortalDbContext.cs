@@ -28,6 +28,7 @@ namespace Shared.Infrastructure
         public DbSet<ServiceEntity> Services { get; set; }
         public DbSet<OrderServiceEntity> OrderServices { get; set; }
         public DbSet<CartItemEntity> CartItems { get; set; }
+        public DbSet<EmailConfirmTokenEntity> EmailConfirmTokens { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -184,6 +185,14 @@ namespace Shared.Infrastructure
                 .WithOne()
                 .HasForeignKey<BlacklistEntity>(b => b.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<EmailConfirmTokenEntity>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.HasOne(e => e.User)
+                      .WithMany()
+                      .HasForeignKey(e => e.UserId);
+            });
         }
     }
 }

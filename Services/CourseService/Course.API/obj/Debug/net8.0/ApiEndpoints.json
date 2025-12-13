@@ -217,6 +217,27 @@
   },
   {
     "ContainingType": "Course.API.Controllers.CourseController",
+    "Method": "Enroll",
+    "RelativePath": "enroll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Course.API.Controllers.CourseController",
     "Method": "GetCourses",
     "RelativePath": "list",
     "HttpMethod": "GET",
@@ -343,5 +364,31 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Course.API.Controllers.CourseController",
+    "Method": "UpdateProgress",
+    "RelativePath": "progress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Progress",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

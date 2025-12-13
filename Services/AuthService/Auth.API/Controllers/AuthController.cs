@@ -1,4 +1,5 @@
 ﻿using Auth.Application.Commands.Autorization;
+using Auth.Application.Commands.ConfirmEmail;
 using Auth.Application.Commands.DeleteUser;
 using Auth.Application.Commands.EditEmailUser;
 using Auth.Application.Commands.EditPhoneUser;
@@ -12,7 +13,6 @@ using Course.Domain.Models;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json.Linq;
 
 namespace Auth.API.Controllers
 {
@@ -82,6 +82,13 @@ namespace Auth.API.Controllers
         {
             await _mediator.Send(command);
             return Ok();
+        }
+
+        [HttpGet("confirm")]
+        public async Task<IActionResult> Confirm([FromQuery] Guid userId, [FromQuery] string token, CancellationToken cancelletionToken)
+        {
+            var result = await _mediator.Send(new ConfirmEmailCommand(userId, token), cancelletionToken);
+            return result ? Ok("Email confirmed") : BadRequest("Invalid or expired token");
         }
     }
 }

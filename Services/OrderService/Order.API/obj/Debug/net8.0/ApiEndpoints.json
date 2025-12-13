@@ -63,6 +63,37 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Order.API.Controllers.OrderController",
+    "Method": "GetPaged",
+    "RelativePath": "paginatedList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.Application.Models.PaginatedResult\u00601[[Order.Domain.Models.OrderEntity, Order.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Order.API.Controllers.ServicesController",
     "Method": "RemoveFromCart",
     "RelativePath": "removeFromCart",

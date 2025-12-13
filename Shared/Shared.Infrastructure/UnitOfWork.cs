@@ -5,6 +5,7 @@ using Enrollment.Domain.Models;
 using Result.Domain.Models;
 using Order.Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using Email.Domain;
 
 namespace Shared.Infrastructure
 {
@@ -34,6 +35,7 @@ namespace Shared.Infrastructure
         public DbSet<ServiceEntity> Services => _context.Services;
         public DbSet<OrderServiceEntity> OrderServices => _context.OrderServices;
         public DbSet<CartItemEntity> CartItems => _context.CartItems;
+        public DbSet<EmailConfirmTokenEntity> EmailConfirmTokens => _context.EmailConfirmTokens;
 
         public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
             => _context.SaveChangesAsync(cancellationToken);

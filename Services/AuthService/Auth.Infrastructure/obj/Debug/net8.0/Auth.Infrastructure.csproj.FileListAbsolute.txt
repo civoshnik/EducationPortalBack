@@ -21,6 +21,7 @@ D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Infrastructure\obj\D
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Infrastructure\obj\Debug\net8.0\Auth.Infrastructure.AssemblyInfoInputs.cache
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Infrastructure\obj\Debug\net8.0\Auth.Infrastructure.AssemblyInfo.cs
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Infrastructure\obj\Debug\net8.0\Auth.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Infrastructure\obj\Debug\net8.0\Auth.Infrastructure.sourcelink.json
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Infrastructure\obj\Debug\net8.0\Auth.Infrastructure.dll
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Infrastructure\obj\Debug\net8.0\refint\Auth.Infrastructure.dll
 D:\CSharp\Kursach\EducationPortal\Services\AuthService\Auth.Infrastructure\obj\Debug\net8.0\Auth.Infrastructure.pdb

@@ -35,6 +35,35 @@ namespace Shared.Infrastructure.Migrations
                     b.ToTable("Blacklist");
                 });
 
+            modelBuilder.Entity("Auth.Domain.Models.EmailConfirmTokenEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsUsed")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("EmailConfirmTokens");
+                });
+
             modelBuilder.Entity("Auth.Domain.Models.UserEntity", b =>
                 {
                     b.Property<Guid>("UserId")
@@ -48,9 +77,21 @@ namespace Shared.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<DateTime?>("EmailConfirmationExpires")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("EmailConfirmationToken")
+                        .HasColumnType("text");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<bool>("IsConfirmed")
+                        .HasColumnType("boolean");
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -464,6 +505,17 @@ namespace Shared.Infrastructure.Migrations
                         .HasForeignKey("Auth.Domain.Models.BlacklistEntity", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Auth.Domain.Models.EmailConfirmTokenEntity", b =>
+                {
+                    b.HasOne("Auth.Domain.Models.UserEntity", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Course.Domain.Models.LearningProgressEntity", b =>

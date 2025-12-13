@@ -21,6 +21,7 @@ D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Infr
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Infrastructure\obj\Debug\net8.0\Notification.Infrastructure.AssemblyInfoInputs.cache
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Infrastructure\obj\Debug\net8.0\Notification.Infrastructure.AssemblyInfo.cs
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Infrastructure\obj\Debug\net8.0\Notification.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Infrastructure\obj\Debug\net8.0\Notification.Infrastructure.sourcelink.json
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Infrastructure\obj\Debug\net8.0\Notification.Infrastructure.dll
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Infrastructure\obj\Debug\net8.0\refint\Notification.Infrastructure.dll
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Infrastructure\obj\Debug\net8.0\Notification.Infrastructure.pdb

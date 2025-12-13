@@ -17,6 +17,27 @@
   },
   {
     "ContainingType": "Auth.API.Controllers.AuthController",
+    "Method": "Confirm",
+    "RelativePath": "confirm",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auth.API.Controllers.AuthController",
     "Method": "DeleteUser",
     "RelativePath": "deleteUser/{id}",
     "HttpMethod": "DELETE",

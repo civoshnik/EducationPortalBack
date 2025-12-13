@@ -6,6 +6,7 @@ using Shared.Infrastructure.Extensions;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Shared.RabbitMQ.Extensions;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,6 +36,7 @@ builder.Services.AddCors(options =>
     });
 });
 builder.Services.AddAuthApi();
+builder.Services.AddEventBus(builder.Configuration);
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -52,7 +54,13 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+var connString = builder.Configuration.GetConnectionString("DefaultConnection");
+Console.WriteLine($"=== ÑÒĞÎÊÀ ÏÎÄÊËŞ×ÅÍÈß: {connString} ===");
+
+
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

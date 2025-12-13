@@ -18,6 +18,7 @@ D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Appl
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Application\obj\Debug\net8.0\Notification.Application.AssemblyInfoInputs.cache
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Application\obj\Debug\net8.0\Notification.Application.AssemblyInfo.cs
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Application\obj\Debug\net8.0\Notification.Application.csproj.CoreCompileInputs.cache
+D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Application\obj\Debug\net8.0\Notification.Application.sourcelink.json
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Application\obj\Debug\net8.0\Notification.Application.dll
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Application\obj\Debug\net8.0\refint\Notification.Application.dll
 D:\CSharp\Kursach\EducationPortal\Services\NotificationService\Notification.Application\obj\Debug\net8.0\Notification.Application.pdb
