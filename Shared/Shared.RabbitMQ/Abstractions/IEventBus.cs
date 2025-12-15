@@ -10,6 +10,7 @@ namespace Shared.RabbitMQ.Abstractions
     {
         Task Publish(IIntegrationEvent @event);
         Task Subscribe<TEvent>(Func<TEvent, Task> handler) where TEvent : IIntegrationEvent;
+        Task PurgeQueueAsync<TEvent>() where TEvent : IIntegrationEvent;
     }
 }
 

@@ -1,11 +1,7 @@
-﻿using MediatR;
+﻿using Auth.Domain.Models;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Shared.Application.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Auth.Application.Commands.ConfirmEmail
 {
@@ -20,24 +16,25 @@ namespace Auth.Application.Commands.ConfirmEmail
 
         public async Task<bool> Handle(ConfirmEmailCommand request, CancellationToken cancellationToken)
         {
+            var tokenEntity = await _unitOfWork.EmailConfirmTokens
+                .SingleOrDefaultAsync(t => t.UserId == request.UserId && t.Token == request.Token, cancellationToken);
+
+            if (tokenEntity == null || tokenEntity.IsUsed || tokenEntity.ExpiresAt < DateTime.UtcNow)
+                return false;
+
+            tokenEntity.IsUsed = true;
+
             var user = await _unitOfWork.Users
-                .SingleOrDefaultAsync(x => x.UserId == request.UserId, cancellationToken);
-            if (user is null) return false;
+                .SingleOrDefaultAsync(u => u.UserId == request.UserId, cancellationToken);
 
-            var record = await _unitOfWork.EmailConfirmTokens
-                .SingleOrDefaultAsync(x =>
-                    x.UserId == request.UserId &&
-                    x.Token == request.Token &&
-                    !x.IsUsed &&
-                    x.ExpiresAt > DateTime.UtcNow,
-                    cancellationToken);
+            if (user == null)
+                return false;
 
-            if (record is null) return false;
-
-            record.IsUsed = true;
-            user.IsConfirmed = true;
+            user.EmailConfirmed = true;
+            user.ModifiedAt = DateTime.UtcNow;
 
             await _unitOfWork.SaveChangesAsync(cancellationToken);
+
             return true;
         }
     }

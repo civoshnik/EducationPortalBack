@@ -1,37 +1,53 @@
-﻿using Email.Domain;
-using Shared.Application.Interfaces;
+﻿using Email.Application.Commands.SendEmail;
+using MediatR;
 using Shared.RabbitMQ.Events.Auth;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Email.Application.EventHandlers
 {
     public class UserRegisteredEventHandler
     {
-        private readonly IEmailSender _sender;
+        private readonly IMediator _mediator;
 
-        public UserRegisteredEventHandler(IEmailSender sender)
+        public UserRegisteredEventHandler(IMediator mediator)
         {
-            _sender = sender;
+            _mediator = mediator;
         }
 
         public async Task Handle(UserRegisteredEvent @event)
         {
+            if (@event == null)
+                throw new ArgumentNullException(nameof(@event));
+
+            if (string.IsNullOrWhiteSpace(@event.Email))
+            {
+                Console.WriteLine($"❌ Email пустой в событии: {System.Text.Json.JsonSerializer.Serialize(@event)}");
+                throw new ArgumentException("Поле Email не может быть пустым");
+            }
+
+            Console.WriteLine($"✅ Получено событие для пользователя: {@event.Email} ({@event.FirstName} {@event.LastName})");
+
             var subject = "Подтверждение email";
             var body = $@"Здравствуйте, {@event.FirstName} {@event.LastName}!
 Для подтверждения перейдите по ссылке:
 {@event.ConfirmUrl}
 Ссылка действительна до {@event.ExpiresAt:yyyy-MM-dd HH:mm} UTC.";
 
-            await _sender.SendEmailAsync(new EmailMessage
+            try
             {
-                To = @event.Email,
-                Subject = subject,
-                Body = body
-            });
+                // 👉 Вместо прямого вызова IEmailSender отправляем команду через MediatR
+                var command = new SendEmailCommand(@event.Email, subject, body);
+                var result = await _mediator.Send(command);
+
+                if (result)
+                    Console.WriteLine($"📧 Письмо успешно отправлено на {@event.Email}");
+                else
+                    Console.WriteLine($"❌ Не удалось отправить письмо на {@event.Email}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Ошибка обработки события: {ex.Message}");
+                throw;
+            }
         }
     }
 }

@@ -5,6 +5,7 @@ using Shared.RabbitMQ.Abstractions;
 using Shared.RabbitMQ.Events.Auth;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.Json;
 
 namespace Auth.Application.Commands.RegisterUser
 {
@@ -45,19 +46,18 @@ namespace Auth.Application.Commands.RegisterUser
 
             var confirmToken = Guid.NewGuid().ToString("N");
             var expiresAt = DateTime.UtcNow.AddHours(24);
-            var confirmUrl = $"https://auth.yourapp.com/confirm?userId={user.UserId}&token={confirmToken}";
+            var confirmUrl = $"http://localhost:5057/confirm?userId={user.UserId}&token={confirmToken}";
 
             var evnt = new UserRegisteredEvent
             {
                 UserId = user.UserId,
-                Email = user.Email,
-                FirstName = user.FirstName,
-                LastName = user.LastName,
+                Email = user.Email ?? throw new InvalidOperationException("Email не должен быть null."),
+                FirstName = user.FirstName ?? string.Empty,
+                LastName = user.LastName ?? string.Empty,
                 ConfirmToken = confirmToken,
                 ExpiresAt = expiresAt,
                 ConfirmUrl = confirmUrl
             };
-
             await _eventBus.Publish(evnt);
 
             var tokenEntity = new EmailConfirmTokenEntity

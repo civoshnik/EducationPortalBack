@@ -15,21 +15,26 @@ namespace Auth.Application.Commands.Autorization
 
         public AutorizationCommandHandler(IUnitOfWork unitOfWork)
         {
-            _unitOfWork = unitOfWork ?? throw new Exception(new(nameof(AutorizationCommandHandler)));
+            _unitOfWork = unitOfWork ?? throw new Exception(nameof(AutorizationCommandHandler));
         }
 
         public async Task<AuthResult> Handle(AutorizationCommand request, CancellationToken cancellationToken)
         {
             var targetUser = await _unitOfWork.Users
-            .FirstOrDefaultAsync(u => u.Login == request.Login, cancellationToken)
-            ?? throw new Exception("Пользователь не найден");
+                .FirstOrDefaultAsync(u => u.Login == request.Login, cancellationToken)
+                ?? throw new Exception("Пользователь не найден");
 
             if (!VerifyPassword(request.Password, targetUser.PasswordHash))
                 throw new Exception("Неверный пароль");
 
+            if (!targetUser.EmailConfirmed)
+                throw new Exception("Email не подтверждён");
+
             var claims = new[]
             {
-            new Claim(ClaimTypes.Name, targetUser.Login),
+                new Claim(ClaimTypes.Name, targetUser.Login),
+                new Claim(ClaimTypes.NameIdentifier, targetUser.UserId.ToString()),
+                new Claim(ClaimTypes.Role, targetUser.Role.ToString())
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("super_secret_key_12345_super_secret_key_12345"));
@@ -48,6 +53,7 @@ namespace Auth.Application.Commands.Autorization
                 UserId = targetUser.UserId
             };
         }
+
         public static bool VerifyPassword(string password, string storedHash)
         {
             using var sha256 = SHA256.Create();

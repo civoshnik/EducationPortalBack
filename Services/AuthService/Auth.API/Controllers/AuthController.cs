@@ -84,11 +84,17 @@ namespace Auth.API.Controllers
             return Ok();
         }
 
+
+
         [HttpGet("confirm")]
-        public async Task<IActionResult> Confirm([FromQuery] Guid userId, [FromQuery] string token, CancellationToken cancelletionToken)
+        public async Task<IActionResult> Confirm(Guid userId, string token)
         {
-            var result = await _mediator.Send(new ConfirmEmailCommand(userId, token), cancelletionToken);
-            return result ? Ok("Email confirmed") : BadRequest("Invalid or expired token");
+            var result = await _mediator.Send(new ConfirmEmailCommand(userId, token));
+
+            if (!result)
+                return BadRequest("❌ Ссылка недействительна");
+
+            return Redirect("http://localhost:5173/login");
         }
     }
 }

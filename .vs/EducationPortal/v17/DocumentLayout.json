@@ -3,48 +3,68 @@
   "WorkspaceRootPath": "D:\\CSharp\\Kursach\\EducationPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.rabbitmq\\rabbitmq\\rabbitmqpersistentconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|solutionrelative:shared\\shared.rabbitmq\\rabbitmq\\rabbitmqpersistentconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|solutionrelative:services\\authservice\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|solutionrelative:services\\authservice\\auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\autorization\\autorizationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\autorization\\autorizationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA38D37A-71E0-4371-9932-FF67CCDE6DD6}|Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.infrastructure\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA38D37A-71E0-4371-9932-FF67CCDE6DD6}|Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj|solutionrelative:shared\\shared.infrastructure\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\confirmemail\\confirmemailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\confirmemail\\confirmemailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|solutionrelative:services\\authservice\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B9752EE-9B9D-43FF-9FE1-AB846E203FF1}|Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.domain\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9752EE-9B9D-43FF-9FE1-AB846E203FF1}|Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj|solutionrelative:services\\authservice\\auth.domain\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91010A5C-1470-444F-B77D-A8CBD0BE3796}|Services\\CourseService\\Course.API\\Course.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\courseservice\\course.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{91010A5C-1470-444F-B77D-A8CBD0BE3796}|Services\\CourseService\\Course.API\\Course.API.csproj|solutionrelative:services\\courseservice\\course.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\confirmemail\\confirmemailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\confirmemail\\confirmemailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\autorization\\autorizationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\autorization\\autorizationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\autorization\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\autorization\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\registeruser\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\registeruser\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3FF9C7B-DC19-52B5-B861-716F1AFD9714}|ApiGateway\\ApiGateway\\ApiGateway.csproj|d:\\csharp\\kursach\\educationportal\\apigateway\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C3FF9C7B-DC19-52B5-B861-716F1AFD9714}|ApiGateway\\ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3FF9C7B-DC19-52B5-B861-716F1AFD9714}|ApiGateway\\ApiGateway\\ApiGateway.csproj|d:\\csharp\\kursach\\educationportal\\apigateway\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3FF9C7B-DC19-52B5-B861-716F1AFD9714}|ApiGateway\\ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FAD2E2EF-D62B-4B79-9465-ACE698A0BB8E}|Services\\EmailService\\Email.Infrastructure\\Email.Infrastructure.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.infrastructure\\services\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAD2E2EF-D62B-4B79-9465-ACE698A0BB8E}|Services\\EmailService\\Email.Infrastructure\\Email.Infrastructure.csproj|solutionrelative:services\\emailservice\\email.infrastructure\\services\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAD2E2EF-D62B-4B79-9465-ACE698A0BB8E}|Services\\EmailService\\Email.Infrastructure\\Email.Infrastructure.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.infrastructure\\options\\smtpoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAD2E2EF-D62B-4B79-9465-ACE698A0BB8E}|Services\\EmailService\\Email.Infrastructure\\Email.Infrastructure.csproj|solutionrelative:services\\emailservice\\email.infrastructure\\options\\smtpoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D88C51C6-53F5-475D-B670-47728B21B18A}|Services\\EmailService\\Email.Domain\\Email.Domain.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.domain\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88C51C6-53F5-475D-B670-47728B21B18A}|Services\\EmailService\\Email.Domain\\Email.Domain.csproj|solutionrelative:services\\emailservice\\email.domain\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C13F39D7-E056-4132-A57F-6E812790E925}|Services\\EmailService\\Email.Application\\Email.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.application\\eventhandlers\\userregisteredeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C13F39D7-E056-4132-A57F-6E812790E925}|Services\\EmailService\\Email.Application\\Email.Application.csproj|solutionrelative:services\\emailservice\\email.application\\eventhandlers\\userregisteredeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.rabbitmq\\abstractions\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|solutionrelative:shared\\shared.rabbitmq\\abstractions\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.rabbitmq\\rabbitmq\\rabbitmqeventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|solutionrelative:shared\\shared.rabbitmq\\rabbitmq\\rabbitmqeventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|solutionrelative:services\\emailservice\\email.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|solutionrelative:services\\authservice\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|solutionrelative:services\\emailservice\\email.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C13F39D7-E056-4132-A57F-6E812790E925}|Services\\EmailService\\Email.Application\\Email.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.application\\commands\\sendemail\\sendemailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,60 +75,16 @@
       "RelativeMoniker": "D:0:0:{C13F39D7-E056-4132-A57F-6E812790E925}|Services\\EmailService\\Email.Application\\Email.Application.csproj|solutionrelative:services\\emailservice\\email.application\\commands\\sendemail\\sendemailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|solutionrelative:services\\emailservice\\email.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|solutionrelative:services\\emailservice\\email.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9752EE-9B9D-43FF-9FE1-AB846E203FF1}|Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.domain\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9752EE-9B9D-43FF-9FE1-AB846E203FF1}|Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj|solutionrelative:services\\authservice\\auth.domain\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\registeruser\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\registeruser\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\confirmemail\\confirmemailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\confirmemail\\confirmemailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|solutionrelative:services\\authservice\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\confirmemail\\confirmemailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\confirmemail\\confirmemailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.api\\email.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|solutionrelative:services\\emailservice\\email.api\\email.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{FAD2E2EF-D62B-4B79-9465-ACE698A0BB8E}|Services\\EmailService\\Email.Infrastructure\\Email.Infrastructure.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.infrastructure\\options\\smtpoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAD2E2EF-D62B-4B79-9465-ACE698A0BB8E}|Services\\EmailService\\Email.Infrastructure\\Email.Infrastructure.csproj|solutionrelative:services\\emailservice\\email.infrastructure\\options\\smtpoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.rabbitmq\\events\\auth\\userregisteredevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|solutionrelative:shared\\shared.rabbitmq\\events\\auth\\userregisteredevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B9752EE-9B9D-43FF-9FE1-AB846E203FF1}|Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.domain\\models\\emailconfirmtokenentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B9752EE-9B9D-43FF-9FE1-AB846E203FF1}|Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj|solutionrelative:services\\authservice\\auth.domain\\models\\emailconfirmtokenentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AC4689D-4461-41AC-8BCA-FE68002132D6}|Shared\\Shared.Application\\Shared.Application.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AC4689D-4461-41AC-8BCA-FE68002132D6}|Shared\\Shared.Application\\Shared.Application.csproj|solutionrelative:shared\\shared.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.rabbitmq\\rabbitmq\\rabbitmqoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|solutionrelative:shared\\shared.rabbitmq\\rabbitmq\\rabbitmqoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.rabbitmq\\rabbitmq\\rabbitmqeventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|solutionrelative:shared\\shared.rabbitmq\\rabbitmq\\rabbitmqeventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D88C51C6-53F5-475D-B670-47728B21B18A}|Services\\EmailService\\Email.Domain\\Email.Domain.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.domain\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D88C51C6-53F5-475D-B670-47728B21B18A}|Services\\EmailService\\Email.Domain\\Email.Domain.csproj|solutionrelative:services\\emailservice\\email.domain\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.rabbitmq\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,8 +95,44 @@
       "RelativeMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|solutionrelative:shared\\shared.rabbitmq\\abstractions\\iintegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.rabbitmq\\abstractions\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|solutionrelative:shared\\shared.rabbitmq\\abstractions\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.rabbitmq\\rabbitmq\\rabbitmqpersistentconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|solutionrelative:shared\\shared.rabbitmq\\rabbitmq\\rabbitmqpersistentconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.rabbitmq\\rabbitmq\\rabbitmqoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A7C443-588B-4683-A4AF-05C18482C243}|Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj|solutionrelative:shared\\shared.rabbitmq\\rabbitmq\\rabbitmqoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|solutionrelative:services\\authservice\\auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA38D37A-71E0-4371-9932-FF67CCDE6DD6}|Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.infrastructure\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA38D37A-71E0-4371-9932-FF67CCDE6DD6}|Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj|solutionrelative:shared\\shared.infrastructure\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91010A5C-1470-444F-B77D-A8CBD0BE3796}|Services\\CourseService\\Course.API\\Course.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\courseservice\\course.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{91010A5C-1470-444F-B77D-A8CBD0BE3796}|Services\\CourseService\\Course.API\\Course.API.csproj|solutionrelative:services\\courseservice\\course.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FF9C7B-DC19-52B5-B861-716F1AFD9714}|ApiGateway\\ApiGateway\\ApiGateway.csproj|d:\\csharp\\kursach\\educationportal\\apigateway\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FF9C7B-DC19-52B5-B861-716F1AFD9714}|ApiGateway\\ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\emailservice\\email.api\\email.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5D61D30F-88DC-47E4-8D96-1956916A16BF}|Services\\EmailService\\Email.API\\Email.API.csproj|solutionrelative:services\\emailservice\\email.api\\email.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9752EE-9B9D-43FF-9FE1-AB846E203FF1}|Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.domain\\models\\emailconfirmtokenentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9752EE-9B9D-43FF-9FE1-AB846E203FF1}|Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj|solutionrelative:services\\authservice\\auth.domain\\models\\emailconfirmtokenentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC4689D-4461-41AC-8BCA-FE68002132D6}|Shared\\Shared.Application\\Shared.Application.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC4689D-4461-41AC-8BCA-FE68002132D6}|Shared\\Shared.Application\\Shared.Application.csproj|solutionrelative:shared\\shared.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA38D37A-71E0-4371-9932-FF67CCDE6DD6}|Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,10 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7AC4689D-4461-41AC-8BCA-FE68002132D6}|Shared\\Shared.Application\\Shared.Application.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.application\\models\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC4689D-4461-41AC-8BCA-FE68002132D6}|Shared\\Shared.Application\\Shared.Application.csproj|solutionrelative:shared\\shared.application\\models\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AC4689D-4461-41AC-8BCA-FE68002132D6}|Shared\\Shared.Application\\Shared.Application.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.application\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AC4689D-4461-41AC-8BCA-FE68002132D6}|Shared\\Shared.Application\\Shared.Application.csproj|solutionrelative:shared\\shared.application\\interfaces\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F603842-FAEE-4D5B-BAA4-6A0C41BF7BFA}|Services\\AuthService\\Auth.API\\Auth.API.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.api\\auth.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -515,18 +523,6 @@
       "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\queries\\getpaginatedteacherlist\\getpaginatedteacherlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\autorization\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\autorization\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\autorization\\autorizationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\autorization\\autorizationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|d:\\csharp\\kursach\\educationportal\\services\\authservice\\auth.application\\commands\\autorization\\autorizationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51EB3752-5E98-48EF-B1DC-2EB3E2319F34}|Services\\AuthService\\Auth.Application\\Auth.Application.csproj|solutionrelative:services\\authservice\\auth.application\\commands\\autorization\\autorizationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA38D37A-71E0-4371-9932-FF67CCDE6DD6}|Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj|d:\\csharp\\kursach\\educationportal\\shared\\shared.infrastructure\\educationportaldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA38D37A-71E0-4371-9932-FF67CCDE6DD6}|Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj|solutionrelative:shared\\shared.infrastructure\\educationportaldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -614,138 +610,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SendEmailCommand.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommand.cs",
-              "RelativeDocumentMoniker": "Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommand.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommand.cs",
-              "RelativeToolTip": "Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T12:02:06.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\ApiGateway\\ApiGateway\\Program.cs",
-              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway\\Program.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\ApiGateway\\ApiGateway\\Program.cs",
-              "RelativeToolTip": "ApiGateway\\ApiGateway\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T20:29:53.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.API\\appsettings.json",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\appsettings.json",
-              "RelativeToolTip": "Services\\AuthService\\Auth.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-06T19:47:29.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MigrationExtensions.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\Extensions\\MigrationExtensions.cs",
-              "RelativeDocumentMoniker": "Shared\\Shared.Infrastructure\\Extensions\\MigrationExtensions.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\Extensions\\MigrationExtensions.cs",
-              "RelativeToolTip": "Shared\\Shared.Infrastructure\\Extensions\\MigrationExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T19:49:54.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Services\\CourseService\\Course.API\\appsettings.json",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\appsettings.json",
-              "RelativeToolTip": "Services\\CourseService\\Course.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-09T18:21:43.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.API\\Program.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\Program.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.API\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T19:47:27.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SmtpEmailSender.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Infrastructure\\Services\\SmtpEmailSender.cs",
-              "RelativeDocumentMoniker": "Services\\EmailService\\Email.Infrastructure\\Services\\SmtpEmailSender.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Infrastructure\\Services\\SmtpEmailSender.cs",
-              "RelativeToolTip": "Services\\EmailService\\Email.Infrastructure\\Services\\SmtpEmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T12:36:46.606Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "SmtpOptions.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Infrastructure\\Options\\SmtpOptions.cs",
-              "RelativeDocumentMoniker": "Services\\EmailService\\Email.Infrastructure\\Options\\SmtpOptions.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Infrastructure\\Options\\SmtpOptions.cs",
-              "RelativeToolTip": "Services\\EmailService\\Email.Infrastructure\\Options\\SmtpOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T12:40:18.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RabbitMqPersistentConnection.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqPersistentConnection.cs",
-              "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqPersistentConnection.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqPersistentConnection.cs",
-              "RelativeToolTip": "Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqPersistentConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBYAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:43:50.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\ApiGateway\\ApiGateway\\appsettings.json",
               "RelativeDocumentMoniker": "ApiGateway\\ApiGateway\\appsettings.json",
               "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\ApiGateway\\ApiGateway\\appsettings.json",
               "RelativeToolTip": "ApiGateway\\ApiGateway\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-05T20:55:55.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SmtpEmailSender.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Infrastructure\\Services\\SmtpEmailSender.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService\\Email.Infrastructure\\Services\\SmtpEmailSender.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Infrastructure\\Services\\SmtpEmailSender.cs",
+              "RelativeToolTip": "Services\\EmailService\\Email.Infrastructure\\Services\\SmtpEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T12:36:46.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthResult.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AuthResult.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AuthResult.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AuthResult.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AuthResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T02:16:16.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutorizationCommand.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommand.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommand.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommand.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T20:38:09.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutorizationCommandHandler.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommandHandler.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommandHandler.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T20:38:27.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfirmEmailCommand.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T21:02:50.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Models\\UserEntity.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Domain\\Models\\UserEntity.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Models\\UserEntity.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.Domain\\Models\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T18:50:24.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAASwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T22:39:19.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfirmEmailCommandHandler.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommandHandler.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommandHandler.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T21:02:59.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterUserCommandHandler.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T17:56:08.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.API\\Program.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\Program.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.API\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T19:47:27.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SendEmailCommandHandler.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommandHandler.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommandHandler.cs",
+              "RelativeToolTip": "Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T12:04:08.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.API\\appsettings.json",
               "RelativeDocumentMoniker": "Services\\EmailService\\Email.API\\appsettings.json",
@@ -753,19 +778,21 @@
               "RelativeToolTip": "Services\\EmailService\\Email.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-07T12:33:05.999Z"
+              "WhenOpened": "2025-12-07T12:33:05.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmailMessage.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Domain\\EmailMessage.cs",
-              "RelativeDocumentMoniker": "Services\\EmailService\\Email.Domain\\EmailMessage.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Domain\\EmailMessage.cs",
-              "RelativeToolTip": "Services\\EmailService\\Email.Domain\\EmailMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "RabbitMqEventBus.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqEventBus.cs",
+              "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqEventBus.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqEventBus.cs",
+              "RelativeToolTip": "Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqEventBus.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwGQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T21:24:44.96Z"
+              "WhenOpened": "2025-12-06T19:43:43.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -775,21 +802,10 @@
               "RelativeDocumentMoniker": "Services\\EmailService\\Email.Application\\EventHandlers\\UserRegisteredEventHandler.cs",
               "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Application\\EventHandlers\\UserRegisteredEventHandler.cs",
               "RelativeToolTip": "Services\\EmailService\\Email.Application\\EventHandlers\\UserRegisteredEventHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T12:27:57.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SendEmailCommandHandler.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommandHandler.cs",
-              "RelativeDocumentMoniker": "Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommandHandler.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommandHandler.cs",
-              "RelativeToolTip": "Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T12:04:08.391Z"
+              "WhenOpened": "2025-12-07T12:27:57.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -799,133 +815,105 @@
               "RelativeDocumentMoniker": "Services\\EmailService\\Email.API\\Program.cs",
               "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.API\\Program.cs",
               "RelativeToolTip": "Services\\EmailService\\Email.API\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwCcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T21:23:12.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Models\\UserEntity.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Domain\\Models\\UserEntity.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Models\\UserEntity.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.Domain\\Models\\UserEntity.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T18:50:24.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RegisterUserCommandHandler.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAgwE8AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:56:08.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ConfirmEmailCommandHandler.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommandHandler.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommandHandler.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommandHandler.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommandHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAApwB8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T21:02:59.044Z"
+              "WhenOpened": "2025-12-06T21:23:12.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAcwFMAAAAqAAAAAAAAAA==",
+              "Title": "SmtpOptions.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Infrastructure\\Options\\SmtpOptions.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService\\Email.Infrastructure\\Options\\SmtpOptions.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Infrastructure\\Options\\SmtpOptions.cs",
+              "RelativeToolTip": "Services\\EmailService\\Email.Infrastructure\\Options\\SmtpOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T22:39:19.181Z"
+              "WhenOpened": "2025-12-07T12:40:18.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEventBus.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Abstractions\\IEventBus.cs",
+              "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\Abstractions\\IEventBus.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Abstractions\\IEventBus.cs",
+              "RelativeToolTip": "Shared\\Shared.RabbitMQ\\Abstractions\\IEventBus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:40:56.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SendEmailCommand.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommand.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommand.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommand.cs",
+              "RelativeToolTip": "Services\\EmailService\\Email.Application\\Commands\\SendEmail\\SendEmailCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T12:02:06.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "ConfirmEmailCommand.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T21:02:50.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Email.API.http",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.API\\Email.API.http",
-              "RelativeDocumentMoniker": "Services\\EmailService\\Email.API\\Email.API.http",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.API\\Email.API.http",
-              "RelativeToolTip": "Services\\EmailService\\Email.API\\Email.API.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-12-07T12:38:42.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RegisterUserCommand.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommand.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommand.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommand.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:53:13.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "UserRegisteredEvent.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Events\\Auth\\UserRegisteredEvent.cs",
               "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\Events\\Auth\\UserRegisteredEvent.cs",
               "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Events\\Auth\\UserRegisteredEvent.cs",
               "RelativeToolTip": "Shared\\Shared.RabbitMQ\\Events\\Auth\\UserRegisteredEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T21:00:39.277Z"
+              "WhenOpened": "2025-12-06T21:00:39.277Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EmailConfirmTokenEntity.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Models\\EmailConfirmTokenEntity.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Domain\\Models\\EmailConfirmTokenEntity.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Models\\EmailConfirmTokenEntity.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.Domain\\Models\\EmailConfirmTokenEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "EmailMessage.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Domain\\EmailMessage.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService\\Email.Domain\\EmailMessage.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.Domain\\EmailMessage.cs",
+              "RelativeToolTip": "Services\\EmailService\\Email.Domain\\EmailMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T12:11:53.09Z"
+              "WhenOpened": "2025-12-06T21:24:44.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Shared\\Shared.RabbitMQ\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:44:05.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IIntegrationEvent.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Abstractions\\IIntegrationEvent.cs",
+              "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\Abstractions\\IIntegrationEvent.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Abstractions\\IIntegrationEvent.cs",
+              "RelativeToolTip": "Shared\\Shared.RabbitMQ\\Abstractions\\IIntegrationEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:43:20.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Shared\\Shared.Application\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "Shared\\Shared.Application\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T19:14:37.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
               "Title": "RabbitMqOptions.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqOptions.cs",
               "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqOptions.cs",
@@ -937,55 +925,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "RabbitMqEventBus.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqEventBus.cs",
-              "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqEventBus.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqEventBus.cs",
-              "RelativeToolTip": "Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqEventBus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "RabbitMqPersistentConnection.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqPersistentConnection.cs",
+              "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqPersistentConnection.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqPersistentConnection.cs",
+              "RelativeToolTip": "Shared\\Shared.RabbitMQ\\RabbitMQ\\RabbitMqPersistentConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:43:43.113Z"
+              "WhenOpened": "2025-12-06T19:43:50.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "Shared\\Shared.RabbitMQ\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommand.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommand.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\RegisterUser\\RegisterUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:44:05.793Z"
+              "WhenOpened": "2025-11-07T17:53:13.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.API\\appsettings.json",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\appsettings.json",
+              "RelativeToolTip": "Services\\AuthService\\Auth.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T19:47:29.734Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "IIntegrationEvent.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Abstractions\\IIntegrationEvent.cs",
-              "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\Abstractions\\IIntegrationEvent.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Abstractions\\IIntegrationEvent.cs",
-              "RelativeToolTip": "Shared\\Shared.RabbitMQ\\Abstractions\\IIntegrationEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\CourseService\\Course.API\\appsettings.json",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\appsettings.json",
+              "RelativeToolTip": "Services\\CourseService\\Course.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-09T18:21:43.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MigrationExtensions.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\Extensions\\MigrationExtensions.cs",
+              "RelativeDocumentMoniker": "Shared\\Shared.Infrastructure\\Extensions\\MigrationExtensions.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\Extensions\\MigrationExtensions.cs",
+              "RelativeToolTip": "Shared\\Shared.Infrastructure\\Extensions\\MigrationExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T19:43:20.453Z"
+              "WhenOpened": "2025-11-06T19:49:54.624Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "IEventBus.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Abstractions\\IEventBus.cs",
-              "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\Abstractions\\IEventBus.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Abstractions\\IEventBus.cs",
-              "RelativeToolTip": "Shared\\Shared.RabbitMQ\\Abstractions\\IEventBus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\ApiGateway\\ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway\\Program.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\ApiGateway\\ApiGateway\\Program.cs",
+              "RelativeToolTip": "ApiGateway\\ApiGateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T20:01:30.904Z"
+              "WhenOpened": "2025-11-05T20:29:53.898Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
+              "Title": "Email.API.http",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.API\\Email.API.http",
+              "RelativeDocumentMoniker": "Services\\EmailService\\Email.API\\Email.API.http",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EmailService\\Email.API\\Email.API.http",
+              "RelativeToolTip": "Services\\EmailService\\Email.API\\Email.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-07T12:38:42.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EmailConfirmTokenEntity.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Models\\EmailConfirmTokenEntity.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Domain\\Models\\EmailConfirmTokenEntity.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Models\\EmailConfirmTokenEntity.cs",
+              "RelativeToolTip": "Services\\AuthService\\Auth.Domain\\Models\\EmailConfirmTokenEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T12:11:53.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Shared\\Shared.Application\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Shared\\Shared.Application\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T19:14:37.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Shared\\Shared.Infrastructure\\UnitOfWork.cs",
@@ -997,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Shared.Infrastructure.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
@@ -1009,19 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IEmailSender.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Interfaces\\IEmailSender.cs",
-              "RelativeDocumentMoniker": "Shared\\Shared.Application\\Interfaces\\IEmailSender.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Interfaces\\IEmailSender.cs",
-              "RelativeToolTip": "Shared\\Shared.Application\\Interfaces\\IEmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T12:05:23.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "PaginatedResult.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Models\\PaginatedResult.cs",
               "RelativeDocumentMoniker": "Shared\\Shared.Application\\Models\\PaginatedResult.cs",
@@ -1033,7 +1069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Auth.API.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\Auth.API.csproj",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.API\\Auth.API.csproj",
@@ -1045,7 +1081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Auth.Application.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Auth.Application.csproj",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Auth.Application.csproj",
@@ -1057,7 +1093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "BlacklistEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Models\\BlacklistEntity.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Domain\\Models\\BlacklistEntity.cs",
@@ -1069,7 +1105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "SetUserBlackListCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\SetUserBlackList\\SetUserBlackListCommand.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\SetUserBlackList\\SetUserBlackListCommand.cs",
@@ -1081,7 +1117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "SetUserBlackListCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\SetUserBlackList\\SetUserBlackListCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\SetUserBlackList\\SetUserBlackListCommandHandler.cs",
@@ -1093,7 +1129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.API\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.API\\DependencyInjection.cs",
@@ -1105,7 +1141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "Shared.RabbitMQ.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj",
               "RelativeDocumentMoniker": "Shared\\Shared.RabbitMQ\\Shared.RabbitMQ.csproj",
@@ -1117,7 +1153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "GetPaginatedOrderQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Queries\\GetPaginatedOrder\\GetPaginatedOrderQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Queries\\GetPaginatedOrder\\GetPaginatedOrderQueryHandler.cs",
@@ -1129,7 +1165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.API\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.API\\Controllers\\OrderController.cs",
@@ -1141,7 +1177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -1153,7 +1189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "Shared.Application.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\Shared.Application.csproj",
               "RelativeDocumentMoniker": "Shared\\Shared.Application\\Shared.Application.csproj",
@@ -1165,7 +1201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "OrderServiceEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Models\\OrderServiceEntity.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Domain\\Models\\OrderServiceEntity.cs",
@@ -1177,7 +1213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "OrderEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Models\\OrderEntity.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Domain\\Models\\OrderEntity.cs",
@@ -1189,7 +1225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "CancelUserBlackListQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\CancelUSerBlackList\\CancelUserBlackListQuery.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\CancelUSerBlackList\\CancelUserBlackListQuery.cs",
@@ -1201,7 +1237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "CancelUserBlackListQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\CancelUSerBlackList\\CancelUserBlackListQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\CancelUSerBlackList\\CancelUserBlackListQueryHandler.cs",
@@ -1213,7 +1249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "StudentAnswerEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\Models\\StudentAnswerEntity.cs",
               "RelativeDocumentMoniker": "Services\\ResultService\\Result.Domain\\Models\\StudentAnswerEntity.cs",
@@ -1225,7 +1261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "ServiceEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Models\\ServiceEntity.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Domain\\Models\\ServiceEntity.cs",
@@ -1237,7 +1273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "GetUserCourseForAdminQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetUserCourseForAdmin\\GetUserCourseForAdminQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetUserCourseForAdmin\\GetUserCourseForAdminQueryHandler.cs",
@@ -1249,7 +1285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "GetUserCourseForAdminQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetUserCourseForAdmin\\GetUserCourseForAdminQuery.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetUserCourseForAdmin\\GetUserCourseForAdminQuery.cs",
@@ -1261,7 +1297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "UpdateProgressCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\UpdateProgress\\UpdateProgressCommand.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\UpdateProgress\\UpdateProgressCommand.cs",
@@ -1273,7 +1309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "GetCourseListQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetCourseList\\GetCourseListQuery.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetCourseList\\GetCourseListQuery.cs",
@@ -1285,7 +1321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "CourseController.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.API\\Controllers\\CourseController.cs",
@@ -1297,7 +1333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "UpdateProgressCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\UpdateProgress\\UpdateProgressCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\UpdateProgress\\UpdateProgressCommandHandler.cs",
@@ -1309,7 +1345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "EnrollCourseCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\EnrollCourse\\EnrollCourseCommand.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\EnrollCourse\\EnrollCourseCommand.cs",
@@ -1321,7 +1357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "EnrollCourseCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\EnrollCourse\\EnrollCourseCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\EnrollCourse\\EnrollCourseCommandHandler.cs",
@@ -1333,7 +1369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "GetCourseListQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetCourseList\\GetCourseListQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetCourseList\\GetCourseListQueryHandler.cs",
@@ -1345,7 +1381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "LessonController.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\Controllers\\LessonController.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.API\\Controllers\\LessonController.cs",
@@ -1357,7 +1393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "GetPaginatedOrderQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Queries\\GetPaginatedOrder\\GetPaginatedOrderQuery.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Queries\\GetPaginatedOrder\\GetPaginatedOrderQuery.cs",
@@ -1369,7 +1405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "GetPaginatedServicesQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Queries\\GetPaginatedServices\\GetPaginatedServicesQuery.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Queries\\GetPaginatedServices\\GetPaginatedServicesQuery.cs",
@@ -1381,7 +1417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "GetCourseForAdminQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetCourseForAdmin\\GetCourseForAdminQuery.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetCourseForAdmin\\GetCourseForAdminQuery.cs",
@@ -1393,7 +1429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "GetCourseForAdminQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetCourseForAdmin\\GetCourseForAdminQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetCourseForAdmin\\GetCourseForAdminQueryHandler.cs",
@@ -1405,7 +1441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "GetPaginatedServicesQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Queries\\GetPaginatedServices\\GetPaginatedServicesQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Queries\\GetPaginatedServices\\GetPaginatedServicesQueryHandler.cs",
@@ -1417,7 +1453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "CreateOrderCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Command\\CreateOrder\\CreateOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Command\\CreateOrder\\CreateOrderCommandHandler.cs",
@@ -1429,7 +1465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "RemoveFromCartCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Command\\RemoveFromCart\\RemoveFromCartCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Command\\RemoveFromCart\\RemoveFromCartCommandHandler.cs",
@@ -1441,7 +1477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "AddToCartCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Command\\AddToCart\\AddToCartCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Command\\AddToCart\\AddToCartCommandHandler.cs",
@@ -1453,7 +1489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "AddToCartCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Command\\AddToCart\\AddToCartCommand.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Command\\AddToCart\\AddToCartCommand.cs",
@@ -1465,7 +1501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "RemoveFromCartCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Command\\RemoveFromCart\\RemoveFromCartCommand.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Command\\RemoveFromCart\\RemoveFromCartCommand.cs",
@@ -1477,7 +1513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "MyCourseDto.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetMyCourse\\MyCourseDto.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetMyCourse\\MyCourseDto.cs",
@@ -1489,7 +1525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "GetMyCourseQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetMyCourse\\GetMyCourseQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetMyCourse\\GetMyCourseQueryHandler.cs",
@@ -1501,7 +1537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "GetMyCourseQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetMyCourse\\GetMyCourseQuery.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetMyCourse\\GetMyCourseQuery.cs",
@@ -1513,7 +1549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "GetLessonCourseForAdminQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetLessonCourseForAdmin\\GetLessonCourseForAdminQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetLessonCourseForAdmin\\GetLessonCourseForAdminQueryHandler.cs",
@@ -1525,7 +1561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 77,
               "Title": "GetLessonCourseForAdminQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetLessonCourseForAdmin\\GetLessonCourseForAdminQuery.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetLessonCourseForAdmin\\GetLessonCourseForAdminQuery.cs",
@@ -1537,7 +1573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 78,
               "Title": "GetCoursesByLevelQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetCoursesByLevel\\GetCoursesByLevelQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetCoursesByLevel\\GetCoursesByLevelQueryHandler.cs",
@@ -1549,7 +1585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 79,
               "Title": "GetCoursesByLevelQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetCoursesByLevel\\GetCoursesByLevelQuery.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetCoursesByLevel\\GetCoursesByLevelQuery.cs",
@@ -1561,7 +1597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 80,
               "Title": "CreateLessonCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\Lessons\\CreateLesson\\CreateLessonCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\Lessons\\CreateLesson\\CreateLessonCommandHandler.cs",
@@ -1573,7 +1609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 81,
               "Title": "CreateLessonCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\Lessons\\CreateLesson\\CreateLessonCommand.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\Lessons\\CreateLesson\\CreateLessonCommand.cs",
@@ -1585,7 +1621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 82,
               "Title": "GetCourseListSelectQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\GetCourseList\\GetCourseListSelectQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\GetCourseList\\GetCourseListSelectQueryHandler.cs",
@@ -1597,7 +1633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 83,
               "Title": "GetCourseListSelectQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\GetCourseList\\GetCourseListSelectQuery.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\GetCourseList\\GetCourseListSelectQuery.cs",
@@ -1609,7 +1645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 84,
               "Title": "GetLessonForAdminQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetLessonForAdmin\\GetLessonForAdminQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetLessonForAdmin\\GetLessonForAdminQueryHandler.cs",
@@ -1621,7 +1657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 85,
               "Title": "GetLessonForAdminQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetLessonForAdmin\\GetLessonForAdminQuery.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetLessonForAdmin\\GetLessonForAdminQuery.cs",
@@ -1633,7 +1669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 88,
               "Title": "ServiceController.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.API\\Controllers\\ServiceController.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.API\\Controllers\\ServiceController.cs",
@@ -1645,7 +1681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 86,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\Program.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.API\\Program.cs",
@@ -1657,7 +1693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 87,
               "Title": "CourseEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Models\\CourseEntity.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Domain\\Models\\CourseEntity.cs",
@@ -1669,7 +1705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 89,
               "Title": "GetUserCartQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Queries\\GetUserCart\\GetUserCartQuery.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Queries\\GetUserCart\\GetUserCartQuery.cs",
@@ -1681,7 +1717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 90,
               "Title": "GetUserCartQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Queries\\GetUserCart\\GetUserCartQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Queries\\GetUserCart\\GetUserCartQueryHandler.cs",
@@ -1693,7 +1729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 91,
               "Title": "CartItemEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Models\\CartItemEntity.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Domain\\Models\\CartItemEntity.cs",
@@ -1705,7 +1741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 92,
               "Title": "TestingProgressEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Models\\TestingProgressEntity.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Domain\\Models\\TestingProgressEntity.cs",
@@ -1717,7 +1753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 93,
               "Title": "LearningProgressEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Models\\LearningProgressEntity.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Domain\\Models\\LearningProgressEntity.cs",
@@ -1729,7 +1765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 94,
               "Title": "ResultEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\Models\\ResultEntity.cs",
               "RelativeDocumentMoniker": "Services\\ResultService\\Result.Domain\\Models\\ResultEntity.cs",
@@ -1741,7 +1777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 95,
               "Title": "TestEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Models\\TestEntity.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Domain\\Models\\TestEntity.cs",
@@ -1753,7 +1789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 96,
               "Title": "QuestionEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Models\\QuestionEntity.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Domain\\Models\\QuestionEntity.cs",
@@ -1765,7 +1801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 97,
               "Title": "QuestionAnswerEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Models\\QuestionAnswerEntity.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Domain\\Models\\QuestionAnswerEntity.cs",
@@ -1777,7 +1813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 98,
               "Title": "LessonEntity.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Domain\\Models\\LessonEntity.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Domain\\Models\\LessonEntity.cs",
@@ -1789,7 +1825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 100,
               "Title": "UpdateLessonCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\Lessons\\UpdateLesson\\UpdateLessonCommand.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\Lessons\\UpdateLesson\\UpdateLessonCommand.cs",
@@ -1801,7 +1837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 101,
               "Title": "DeleteLessonCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\Lessons\\DeleteLesson\\DeleteLessonCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\Lessons\\DeleteLesson\\DeleteLessonCommandHandler.cs",
@@ -1813,7 +1849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 99,
               "Title": "UpdateLessonCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\Lessons\\UpdateLesson\\UpdateLessonCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\Lessons\\UpdateLesson\\UpdateLessonCommandHandler.cs",
@@ -1825,7 +1861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 102,
               "Title": "DeleteLessonCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\Lessons\\DeleteLesson\\DeleteLessonCommand.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\Lessons\\DeleteLesson\\DeleteLessonCommand.cs",
@@ -1837,7 +1873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 103,
               "Title": "EditCourseCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\EditCourse\\EditCourseCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\EditCourse\\EditCourseCommandHandler.cs",
@@ -1849,7 +1885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 107,
               "Title": "GetUserQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Queries\\GetUser\\GetUserQuery.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Queries\\GetUser\\GetUserQuery.cs",
@@ -1861,7 +1897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 104,
               "Title": "DeleteCourseForAdminCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\DeleteCourseForAdmin\\DeleteCourseForAdminCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\DeleteCourseForAdmin\\DeleteCourseForAdminCommandHandler.cs",
@@ -1873,7 +1909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 106,
               "Title": "GetUserQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Queries\\GetUser\\GetUserQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Queries\\GetUser\\GetUserQueryHandler.cs",
@@ -1885,7 +1921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 105,
               "Title": "CreateCourseCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\CreateCourse\\CreateCourseCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\CreateCourse\\CreateCourseCommandHandler.cs",
@@ -1897,7 +1933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 108,
               "Title": "GetPaginatedLessonListQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetPaginatedLessonList\\GetPaginatedLessonListQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetPaginatedLessonList\\GetPaginatedLessonListQueryHandler.cs",
@@ -1909,7 +1945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 109,
               "Title": "GetPaginatedLessonListQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetPaginatedLessonList\\GetPaginatedLessonListQuery.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetPaginatedLessonList\\GetPaginatedLessonListQuery.cs",
@@ -1921,7 +1957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 110,
               "Title": "EditPhoneUserCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\EditPhoneUser\\EditPhoneUserCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\EditPhoneUser\\EditPhoneUserCommandHandler.cs",
@@ -1933,7 +1969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 111,
               "Title": "EditEmailUserCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\EditEmailUser\\EditEmailUserCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\EditEmailUser\\EditEmailUserCommandHandler.cs",
@@ -1945,7 +1981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 112,
               "Title": "EditEmailUserCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\EditEmailUser\\EditEmailUserCommand.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\EditEmailUser\\EditEmailUserCommand.cs",
@@ -1957,7 +1993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 113,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.API\\DependencyInjection.cs",
@@ -1969,7 +2005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 114,
               "Title": "QuestionController.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\Controllers\\QuestionController.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.API\\Controllers\\QuestionController.cs",
@@ -1981,7 +2017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 115,
               "Title": "GetPaginatedQuestionListQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetPaginatedQuestionList\\GetPaginatedQuestionListQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetPaginatedQuestionList\\GetPaginatedQuestionListQueryHandler.cs",
@@ -1993,7 +2029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 116,
               "Title": "CreateCourseCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\CreateCourse\\CreateCourseCommand.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\CreateCourse\\CreateCourseCommand.cs",
@@ -2005,7 +2041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 117,
               "Title": "EditCourseCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\EditCourse\\EditCourseCommand.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\EditCourse\\EditCourseCommand.cs",
@@ -2017,7 +2053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 118,
               "Title": "EditPhoneUserCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\EditPhoneUser\\EditPhoneUserCommand.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\EditPhoneUser\\EditPhoneUserCommand.cs",
@@ -2029,7 +2065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 119,
               "Title": "DeleteUserCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\DeleteUser\\DeleteUserCommand.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\DeleteUser\\DeleteUserCommand.cs",
@@ -2041,7 +2077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 120,
               "Title": "GetPaginatedStudentListQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Queries\\GetPaginatedStudentList\\GetPaginatedStudentListQuery.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Queries\\GetPaginatedStudentList\\GetPaginatedStudentListQuery.cs",
@@ -2053,7 +2089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 121,
               "Title": "DeleteCourseForAdminCommand.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Commands\\DeleteCourseForAdmin\\DeleteCourseForAdminCommand.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Commands\\DeleteCourseForAdmin\\DeleteCourseForAdminCommand.cs",
@@ -2065,7 +2101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 122,
               "Title": "Course.API.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\Course.API.csproj",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.API\\Course.API.csproj",
@@ -2077,7 +2113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 123,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.API\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.API\\Controllers\\CartController.cs",
@@ -2089,7 +2125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 124,
               "Title": "GetPaginatedStudentListQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Queries\\GetPaginatedStudentList\\GetPaginatedStudentListQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Queries\\GetPaginatedStudentList\\GetPaginatedStudentListQueryHandler.cs",
@@ -2101,7 +2137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 125,
               "Title": "GetUserOrdersQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Queries\\GetUserOrders\\GetUserOrdersQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Queries\\GetUserOrders\\GetUserOrdersQueryHandler.cs",
@@ -2113,7 +2149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 126,
               "Title": "GetUserOrdersQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Queries\\GetUserOrders\\GetUserOrdersQuery.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Queries\\GetUserOrders\\GetUserOrdersQuery.cs",
@@ -2125,7 +2161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 127,
               "Title": "DeleteUserCommandHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\DeleteUser\\DeleteUserCommandHandler.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\DeleteUser\\DeleteUserCommandHandler.cs",
@@ -2137,7 +2173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 129,
               "Title": "GetPaginatedTeacherListQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Queries\\GetPaginatedTeacherList\\GetPaginatedTeacherListQuery.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Queries\\GetPaginatedTeacherList\\GetPaginatedTeacherListQuery.cs",
@@ -2149,7 +2185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 128,
               "Title": "GetPaginatedTeacherListQueryHandler.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Queries\\GetPaginatedTeacherList\\GetPaginatedTeacherListQueryHandler.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Queries\\GetPaginatedTeacherList\\GetPaginatedTeacherListQueryHandler.cs",
@@ -2161,43 +2197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
-              "Title": "AuthResult.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AuthResult.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AuthResult.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AuthResult.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AuthResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T02:16:16.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 129,
-              "Title": "AutorizationCommandHandler.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommandHandler.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommandHandler.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommandHandler.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommandHandler.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwC4AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T20:38:27.72Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 130,
-              "Title": "AutorizationCommand.cs",
-              "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommand.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommand.cs",
-              "ToolTip": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommand.cs",
-              "RelativeToolTip": "Services\\AuthService\\Auth.Application\\Commands\\Autorization\\AutorizationCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T20:38:09.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 131,
               "Title": "EducationPortalDbContextFactory.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Infrastructure\\EducationPortalDbContextFactory.cs",
               "RelativeDocumentMoniker": "Shared\\Shared.Infrastructure\\EducationPortalDbContextFactory.cs",
@@ -2209,7 +2209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 131,
               "Title": "Order.Domain.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Domain\\Order.Domain.csproj",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Domain\\Order.Domain.csproj",
@@ -2221,7 +2221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 132,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Command\\CreateOrder\\OrderItem.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Command\\CreateOrder\\OrderItem.cs",
@@ -2233,7 +2233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 134,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.API\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.API\\DependencyInjection.cs",
@@ -2245,7 +2245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 133,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.API\\appsettings.json",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.API\\appsettings.json",
@@ -2257,7 +2257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 135,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.API\\Program.cs",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.API\\Program.cs",
@@ -2269,7 +2269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 136,
               "Title": "Order.Application.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Order.Application.csproj",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.Application\\Order.Application.csproj",
@@ -2281,7 +2281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 137,
               "Title": "GetPaginatedQuestionListQuery.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Queries\\GetPaginatedQuestionList\\GetPaginatedQuestionListQuery.cs",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Queries\\GetPaginatedQuestionList\\GetPaginatedQuestionListQuery.cs",
@@ -2293,7 +2293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 138,
               "Title": "Course.Application.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.Application\\Course.Application.csproj",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.Application\\Course.Application.csproj",
@@ -2305,7 +2305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 139,
               "Title": "Auth.Domain.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj",
               "RelativeDocumentMoniker": "Services\\AuthService\\Auth.Domain\\Auth.Domain.csproj",
@@ -2317,7 +2317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 140,
               "Title": "Result.Domain.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.Domain\\Result.Domain.csproj",
               "RelativeDocumentMoniker": "Services\\ResultService\\Result.Domain\\Result.Domain.csproj",
@@ -2329,7 +2329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 141,
               "Title": "Notification.Domain.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\NotificationService\\Notification.Domain\\Notification.Domain.csproj",
               "RelativeDocumentMoniker": "Services\\NotificationService\\Notification.Domain\\Notification.Domain.csproj",
@@ -2341,7 +2341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 142,
               "Title": "Enrollment.Domain.csproj",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.Domain\\Enrollment.Domain.csproj",
               "RelativeDocumentMoniker": "Services\\EnrollmentService\\Enrollment.Domain\\Enrollment.Domain.csproj",
@@ -2353,7 +2353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 149,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Shared\\Shared.Application\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Shared\\Shared.Application\\IUnitOfWork.cs",
@@ -2365,7 +2365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 143,
               "Title": "ApiGateway.http",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\ApiGateway\\ApiGateway\\ApiGateway.http",
               "RelativeDocumentMoniker": "ApiGateway\\ApiGateway\\ApiGateway.http",
@@ -2377,7 +2377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 144,
               "Title": "Result.API",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\ResultService\\Result.API\\Result.API.csproj",
               "RelativeDocumentMoniker": "Services\\ResultService\\Result.API\\Result.API.csproj",
@@ -2388,7 +2388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 145,
               "Title": "Order.API",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.API\\Order.API.csproj",
               "RelativeDocumentMoniker": "Services\\OrderService\\Order.API\\Order.API.csproj",
@@ -2399,7 +2399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 146,
               "Title": "Notification.API",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\NotificationService\\Notification.API\\Notification.API.csproj",
               "RelativeDocumentMoniker": "Services\\NotificationService\\Notification.API\\Notification.API.csproj",
@@ -2410,7 +2410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 147,
               "Title": "Enrollment.API",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\EnrollmentService\\Enrollment.API\\Enrollment.API.csproj",
               "RelativeDocumentMoniker": "Services\\EnrollmentService\\Enrollment.API\\Enrollment.API.csproj",
@@ -2421,7 +2421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 148,
               "Title": "Course.API",
               "DocumentMoniker": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\CourseService\\Course.API\\Course.API.csproj",
               "RelativeDocumentMoniker": "Services\\CourseService\\Course.API\\Course.API.csproj",

@@ -11,6 +11,13 @@ namespace Shared.RabbitMQ.RabbitMQ
         private readonly RabbitMqPersistentConnection _connection;
         private readonly string _exchangeName = "app.events";
 
+        private static readonly JsonSerializerOptions _jsonOptions = new()
+        {
+            PropertyNameCaseInsensitive = true,
+            IgnoreReadOnlyProperties = false,
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+        };
+
         public RabbitMqEventBus(RabbitMqPersistentConnection connection)
         {
             _connection = connection;
@@ -22,7 +29,10 @@ namespace Shared.RabbitMQ.RabbitMQ
             await channel.ExchangeDeclareAsync(_exchangeName, ExchangeType.Topic, durable: true);
 
             var eventName = @event.GetType().Name;
-            var body = JsonSerializer.SerializeToUtf8Bytes(@event);
+            var eventJson = JsonSerializer.Serialize(@event, @event.GetType(), _jsonOptions);
+            var body = Encoding.UTF8.GetBytes(eventJson);
+
+            Console.WriteLine($"📤 Отправка события {eventName}: {eventJson}");
 
             var props = new BasicProperties
             {
@@ -44,22 +54,54 @@ namespace Shared.RabbitMQ.RabbitMQ
             var channel = await _connection.CreateChannelAsync();
             await channel.ExchangeDeclareAsync(_exchangeName, ExchangeType.Topic, durable: true);
 
-            var queueName = typeof(TEvent).Name.ToLower();
+            var eventName = typeof(TEvent).Name;
+            var queueName = $"{typeof(TEvent).Name.ToLower()}_queue";
+
             await channel.QueueDeclareAsync(queueName, durable: true, exclusive: false, autoDelete: false);
-            await channel.QueueBindAsync(queueName, _exchangeName, typeof(TEvent).Name);
+            await channel.QueueBindAsync(queueName, _exchangeName, eventName);
 
             var consumer = new AsyncEventingBasicConsumer(channel);
             consumer.ReceivedAsync += async (_, ea) =>
             {
                 var json = Encoding.UTF8.GetString(ea.Body.ToArray());
-                var message = JsonSerializer.Deserialize<TEvent>(json);
-                if (message is not null)
-                    await handler(message);
+                Console.WriteLine($"📥 Получено сообщение: {json}");
 
-                await channel.BasicAckAsync(ea.DeliveryTag, false);
+                try
+                {
+                    var message = JsonSerializer.Deserialize<TEvent>(json, _jsonOptions);
+                    if (message is not null)
+                        await handler(message);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"❌ Ошибка обработки сообщения: {ex.Message}");
+                }
+                finally
+                {
+                    // ✅ Всегда подтверждаем, чтобы сообщение не зацикливалось
+                    await channel.BasicAckAsync(ea.DeliveryTag, false);
+                }
             };
 
             await channel.BasicConsumeAsync(queueName, autoAck: false, consumer: consumer);
+            Console.WriteLine($"✅ Подписан на событие {eventName} (очередь: {queueName})");
+        }
+
+        // ✅ Новый метод для очистки очереди вручную
+        public async Task PurgeQueueAsync<TEvent>() where TEvent : IIntegrationEvent
+        {
+            var channel = await _connection.CreateChannelAsync();
+            var queueName = $"{typeof(TEvent).Name.ToLower()}_queue";
+
+            try
+            {
+                await channel.QueuePurgeAsync(queueName);
+                Console.WriteLine($"🧹 Очередь {queueName} очищена");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Не удалось очистить очередь {queueName}: {ex.Message}");
+            }
         }
     }
 }
