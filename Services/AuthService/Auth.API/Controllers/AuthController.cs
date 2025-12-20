@@ -1,9 +1,11 @@
 ﻿using Auth.Application.Commands.Autorization;
+using Auth.Application.Commands.CancelUSerBlackList;
 using Auth.Application.Commands.ConfirmEmail;
 using Auth.Application.Commands.DeleteUser;
 using Auth.Application.Commands.EditEmailUser;
 using Auth.Application.Commands.EditPhoneUser;
 using Auth.Application.Commands.RegisterUser;
+using Auth.Application.Commands.SetUserBlackList;
 using Auth.Application.Queries;
 using Auth.Application.Queries.GetPaginatedStudentList;
 using Auth.Application.Queries.GetPaginatedTeacherList;
@@ -84,17 +86,29 @@ namespace Auth.API.Controllers
             return Ok();
         }
 
-
-
         [HttpGet("confirm")]
         public async Task<IActionResult> Confirm(Guid userId, string token)
         {
             var result = await _mediator.Send(new ConfirmEmailCommand(userId, token));
 
             if (!result)
-                return BadRequest("❌ Ссылка недействительна");
+                return BadRequest("Ссылка недействительна");
 
             return Redirect("http://localhost:5173/login");
+        }
+
+        [HttpPost("setUserBlackList/{userId}")]
+        public async Task<IActionResult> SetBlackList(Guid userId)
+        {
+            await _mediator.Send(new SetUserBlackListCommand { UserId = userId });
+            return Ok();
+        }
+
+        [HttpPost("cancelUserBlackList/{userId}")]
+        public async Task<IActionResult> CancelBlackList(Guid userId)
+        {
+            await _mediator.Send(new CancelUserBlackListQuery { UserId = userId });
+            return Ok();
         }
     }
 }

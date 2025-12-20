@@ -19,6 +19,11 @@ namespace Auth.Application.Commands.CancelUSerBlackList
                 ?? throw new Exception($"Пользователь с ID {request.UserId} не найден!");
 
             _unitOfWork.Blacklist.Remove(targetUser);
+
+            var user = await _unitOfWork.Users.SingleOrDefaultAsync(u => u.UserId == request.UserId, cancellationToken)
+                ?? throw new Exception($"Пользователь с ID {request.UserId} не найден!");
+
+            user.ModifiedAt = DateTime.UtcNow;
             await _unitOfWork.SaveChangesAsync(cancellationToken);
         }
     }

@@ -2,9 +2,16 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Order.Application.Command.AddToCart;
+using Order.Application.Command.CreateService;
+using Order.Application.Command.DeleteService;
 using Order.Application.Command.RemoveFromCart;
 using Order.Application.Queries;
+using Order.Application.Queries.GetPaginatedOrder;
+using Order.Application.Queries.GetServiceById;
+using Order.Application.Queries.GetUserCart;
+using Order.Domain.Models;
 using Shared.Application.Interfaces;
+using Shared.Application.Models;
 
 namespace Order.API.Controllers
 {
@@ -20,13 +27,13 @@ namespace Order.API.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        [HttpGet("getPaginated")]
-        public async Task<ActionResult<object>> GetPaginated([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        [HttpGet("paged")]
+        public async Task<ActionResult<PaginatedResult<OrderEntity>>> GetPagedOrders([FromQuery] int page, [FromQuery] int pageSize)
         {
-            var items = await _mediator.Send(new GetPaginatedServicesQuery(page, pageSize));
-            var totalCount = await _unitOfWork.Services.CountAsync();
-            return Ok(new { items, totalCount });
+            var result = await _mediator.Send(new GetPaginatedOrderQuery(page, pageSize));
+            return Ok(result);
         }
+
 
         [HttpPost("AddToCart")]
         public async Task<IActionResult> AddToCart([FromBody] AddToCartCommand command)
@@ -36,12 +43,13 @@ namespace Order.API.Controllers
             return Ok(new { cartId });
         }
 
-        //[HttpGet("getCart")]
-        //public async Task<ActionResult<CartEntity>> GetCart([FromQuery] GetUserCartQuery query)
-        //{
-        //    var cart = await _mediator.Send(query);
-        //    return Ok(cart);
-        //}
+        [HttpGet("getCart")]
+        public async Task<ActionResult<List<CartItemEntity>>> GetCart([FromQuery] GetUserCartQuery query)
+        {
+            var items = await _mediator.Send(query);
+            return Ok(items);
+        }
+
 
         [HttpDelete("removeFromCart")]
         public async Task<IActionResult> RemoveFromCart([FromQuery] Guid userId, [FromQuery] Guid serviceId)
@@ -53,5 +61,35 @@ namespace Order.API.Controllers
             });
             return NoContent();
         }
+
+        [HttpGet("getServiceById/{serviceId}")]
+        public async Task<ActionResult<ServiceEntity>> GetServiceById(Guid serviceId)
+        {
+            var query = new GetServiceByIdQuery { ServiceId = serviceId };
+            var service = await _mediator.Send(query);
+            return Ok(service);
+        }
+
+        [HttpPost("createService")]
+        public async Task<IActionResult> CreateService([FromBody] CreateServiceCommand command)
+        {
+            await _mediator.Send(command);
+            return Ok();
+        }
+
+        [HttpGet("getPaginatedServiceList")]
+        public async Task<ActionResult<PaginatedResult<ServiceEntity>>> GetPaginatedServiceList([FromQuery] int page, [FromQuery] int pageSize)
+        {
+            var result = await _mediator.Send(new GetPaginatedServicesQuery(page, pageSize));
+            return Ok(result);
+        }
+
+        [HttpDelete("{serviceId}")]
+        public async Task<IActionResult> DeleteService(Guid serviceId)
+        {
+            await _mediator.Send(new DeleteServiceCommand { ServiceId = serviceId });
+            return Ok();
+        }
+
     }
 }

@@ -2,6 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Order.Application.Command.CreateOrder;
+using Order.Application.Queries.GetOrdersByService;
 using Order.Application.Queries.GetPaginatedOrder;
 using Order.Application.Queries.GetUserOrders;
 using Order.Domain.Models;
@@ -44,6 +45,14 @@ namespace Order.API.Controllers
             var result = await _mediator.Send(new GetPaginatedOrderQuery(page, pageSize));
             return Ok(result);
         }
+
+        [HttpGet("getOrdersByService")]
+        public async Task<ActionResult<List<OrderEntity>>> GetOrdersByService([FromQuery] Guid serviceId)
+        {
+            var result = await _mediator.Send(new GetOrdersByServiceQuery { ServiceId = serviceId });
+            return Ok(result);
+        }
+
 
     }
 }

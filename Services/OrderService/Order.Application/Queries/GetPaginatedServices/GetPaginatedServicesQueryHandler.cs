@@ -2,25 +2,36 @@
 using Microsoft.EntityFrameworkCore;
 using Order.Domain.Models;
 using Shared.Application.Interfaces;
+using Shared.Application.Models;
 
 namespace Order.Application.Queries
 {
-    public class GetPaginatedServicesQueryHandler : IRequestHandler<GetPaginatedServicesQuery, List<ServiceEntity>>
+    public class GetPaginatedServiceQueryHandler : IRequestHandler<GetPaginatedServicesQuery, PaginatedResult<ServiceEntity>>
     {
         private readonly IUnitOfWork _unitOfWork;
 
-        public GetPaginatedServicesQueryHandler(IUnitOfWork unitOfWork)
+        public GetPaginatedServiceQueryHandler(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<List<ServiceEntity>> Handle(GetPaginatedServicesQuery request, CancellationToken cancellationToken)
+        public async Task<PaginatedResult<ServiceEntity>> Handle(GetPaginatedServicesQuery request, CancellationToken cancellationToken)
         {
-            return await _unitOfWork.Services
-                .OrderBy(s => s.Name)
+            var query = _unitOfWork.Services.OrderByDescending(s => s.CreatedAt);
+
+            var items = await query
                 .Skip((request.Page - 1) * request.PageSize)
                 .Take(request.PageSize)
                 .ToListAsync(cancellationToken);
+
+            var totalCount = await query.CountAsync(cancellationToken);
+
+            return new PaginatedResult<ServiceEntity>
+            {
+                Items = items,
+                TotalCount = totalCount
+            };
         }
     }
+
 }

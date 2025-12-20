@@ -43,8 +43,50 @@
   },
   {
     "ContainingType": "Order.API.Controllers.ServicesController",
-    "Method": "GetPaginated",
-    "RelativePath": "getPaginated",
+    "Method": "CreateService",
+    "RelativePath": "createService",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Order.Application.Command.CreateService.CreateServiceCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Order.API.Controllers.ServicesController",
+    "Method": "GetCart",
+    "RelativePath": "getCart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Order.Domain.Models.CartItemEntity, Order.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Order.API.Controllers.ServicesController",
+    "Method": "GetPaginatedServiceList",
+    "RelativePath": "getPaginatedServiceList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -60,7 +102,74 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "Shared.Application.Models.PaginatedResult\u00601[[Order.Domain.Models.ServiceEntity, Order.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Order.API.Controllers.ServicesController",
+    "Method": "GetServiceById",
+    "RelativePath": "getServiceById/{serviceId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Order.Domain.Models.ServiceEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Order.API.Controllers.ServicesController",
+    "Method": "GetPagedOrders",
+    "RelativePath": "paged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.Application.Models.PaginatedResult\u00601[[Order.Domain.Models.OrderEntity, Order.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Order.API.Controllers.OrderController",

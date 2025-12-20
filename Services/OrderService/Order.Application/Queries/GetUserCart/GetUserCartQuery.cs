@@ -8,8 +8,8 @@ using Order.Domain.Models;
 
 namespace Order.Application.Queries.GetUserCart
 {
-    //public record GetUserCartQuery : IRequest<CartEntity>
-    //{
-    //    public Guid UserId { get; set; }
-    //}
+    public record GetUserCartQuery : IRequest<List<CartItemEntity>>
+    {
+        public Guid UserId { get; set; }
+    }
 }

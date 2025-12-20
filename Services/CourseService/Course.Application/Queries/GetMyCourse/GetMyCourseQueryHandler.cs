@@ -24,7 +24,7 @@ namespace Course.Application.Queries.GetMyCourse
                 throw new KeyNotFoundException("Нет активной подписки на курс");
 
             var course = await _unitOfWork.Courses
-                .FirstAsync(c => c.CourseId == subscription.CourseId, cancellationToken);
+                .FirstAsync(c => c.CourseId == subscription.CourseId, cancellationToken) ?? throw new Exception("нет курсов");
 
             return new MyCourseDto
             {

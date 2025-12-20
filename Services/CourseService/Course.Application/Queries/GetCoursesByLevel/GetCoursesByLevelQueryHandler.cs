@@ -21,7 +21,7 @@ namespace Course.Application.Queries.GetCoursesByLevel
         public async Task<IEnumerable<CourseEntity>> Handle(GetCoursesByLevelQuery request, CancellationToken cancelletionToken)
         {
             return await _unitOfWork.Courses
-                .Where(c => c.Level == request.Level && c.IsPublished)
+                .Where(c => c.Level.ToLower() == request.Level.ToLower() && c.IsPublished)
                 .ToListAsync(cancelletionToken);
         }
     }
