@@ -5,7 +5,6 @@ using Shared.RabbitMQ.Abstractions;
 using Shared.RabbitMQ.Events.Auth;
 using System.Security.Cryptography;
 using System.Text;
-using System.Text.Json;
 
 namespace Auth.Application.Commands.RegisterUser
 {

@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "56pzWBQXJ4g=",
+  "dgSpecHash": "a5puN3blwv8=",
   "success": true,
   "projectFilePath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.API\\Order.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LexA\\.nuget\\packages\\closedxml\\0.105.0\\closedxml.0.105.0.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\closedxml.parser\\2.0.0\\closedxml.parser.2.0.0.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\documentformat.openxml\\3.1.1\\documentformat.openxml.3.1.1.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\documentformat.openxml.framework\\3.1.1\\documentformat.openxml.framework.3.1.1.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.0\\fluentvalidation.dependencyinjectionextensions.12.1.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -49,6 +54,7 @@
     "C:\\Users\\LexA\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\rbush.signed\\4.0.0\\rbush.signed.4.0.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\serilog.aspnetcore\\8.0.1\\serilog.aspnetcore.8.0.1.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",
@@ -58,6 +64,7 @@
     "C:\\Users\\LexA\\.nuget\\packages\\serilog.sinks.console\\5.0.0\\serilog.sinks.console.5.0.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
@@ -72,6 +79,7 @@
     "C:\\Users\\LexA\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\system.io.pipelines\\9.0.0\\system.io.pipelines.9.0.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
@@ -85,7 +93,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Order.API depends on Microsoft.Extensions.Configuration (>= 8.0.10) but Microsoft.Extensions.Configuration 8.0.10 was not found. Microsoft.Extensions.Configuration 9.0.0 was resolved instead.",
+      "message": "Order.API зависит от Microsoft.Extensions.Configuration (>= 8.0.10), но версия Microsoft.Extensions.Configuration 8.0.10 не найдена. Использовалась версия Microsoft.Extensions.Configuration 9.0.0.",
       "libraryId": "Microsoft.Extensions.Configuration",
       "targetGraphs": [
         "net8.0"
@@ -95,7 +103,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Order.API depends on Microsoft.Extensions.Configuration.Binder (>= 8.0.10) but Microsoft.Extensions.Configuration.Binder 8.0.10 was not found. Microsoft.Extensions.Configuration.Binder 9.0.0 was resolved instead.",
+      "message": "Order.API зависит от Microsoft.Extensions.Configuration.Binder (>= 8.0.10), но версия Microsoft.Extensions.Configuration.Binder 8.0.10 не найдена. Использовалась версия Microsoft.Extensions.Configuration.Binder 9.0.0.",
       "libraryId": "Microsoft.Extensions.Configuration.Binder",
       "targetGraphs": [
         "net8.0"
@@ -105,7 +113,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Order.API depends on Microsoft.Extensions.Configuration.Json (>= 8.0.10) but Microsoft.Extensions.Configuration.Json 8.0.10 was not found. Microsoft.Extensions.Configuration.Json 9.0.0 was resolved instead.",
+      "message": "Order.API зависит от Microsoft.Extensions.Configuration.Json (>= 8.0.10), но версия Microsoft.Extensions.Configuration.Json 8.0.10 не найдена. Использовалась версия Microsoft.Extensions.Configuration.Json 9.0.0.",
       "libraryId": "Microsoft.Extensions.Configuration.Json",
       "targetGraphs": [
         "net8.0"
@@ -115,7 +123,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Order.API depends on Microsoft.Extensions.DependencyInjection (>= 8.0.10) but Microsoft.Extensions.DependencyInjection 8.0.10 was not found. Microsoft.Extensions.DependencyInjection 9.0.0 was resolved instead.",
+      "message": "Order.API зависит от Microsoft.Extensions.DependencyInjection (>= 8.0.10), но версия Microsoft.Extensions.DependencyInjection 8.0.10 не найдена. Использовалась версия Microsoft.Extensions.DependencyInjection 9.0.0.",
       "libraryId": "Microsoft.Extensions.DependencyInjection",
       "targetGraphs": [
         "net8.0"
@@ -125,7 +133,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Order.API depends on Microsoft.Extensions.Logging (>= 8.0.10) but Microsoft.Extensions.Logging 8.0.10 was not found. Microsoft.Extensions.Logging 9.0.0 was resolved instead.",
+      "message": "Order.API зависит от Microsoft.Extensions.Logging (>= 8.0.10), но версия Microsoft.Extensions.Logging 8.0.10 не найдена. Использовалась версия Microsoft.Extensions.Logging 9.0.0.",
       "libraryId": "Microsoft.Extensions.Logging",
       "targetGraphs": [
         "net8.0"
@@ -135,7 +143,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 13.0.0 was resolved.",
+      "message": "Версия обнаруженного пакета нарушает ограничение зависимости: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 требуется MediatR (>= 11.0.0 && < 12.0.0), но в результате разрешения получена версия MediatR 13.0.0.",
       "libraryId": "MediatR",
       "targetGraphs": [
         "net8.0"

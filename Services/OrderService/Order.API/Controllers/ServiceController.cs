@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Order.Application.Command.AddToCart;
 using Order.Application.Command.CreateService;
 using Order.Application.Command.DeleteService;
+using Order.Application.Command.EditService;
 using Order.Application.Command.RemoveFromCart;
 using Order.Application.Queries;
 using Order.Application.Queries.GetPaginatedOrder;
@@ -44,11 +45,13 @@ namespace Order.API.Controllers
         }
 
         [HttpGet("getCart")]
-        public async Task<ActionResult<List<CartItemEntity>>> GetCart([FromQuery] GetUserCartQuery query)
+        public async Task<ActionResult<List<CartItemDto>>> GetCart([FromQuery] Guid userId)
         {
-            var items = await _mediator.Send(query);
+            var items = await _mediator.Send(new GetUserCartQuery { UserId = userId });
             return Ok(items);
         }
+
+
 
 
         [HttpDelete("removeFromCart")]
@@ -90,6 +93,14 @@ namespace Order.API.Controllers
             await _mediator.Send(new DeleteServiceCommand { ServiceId = serviceId });
             return Ok();
         }
+
+        [HttpPost("editService")]
+        public async Task<IActionResult> EditService([FromBody] EditServiceCommand command)
+        {
+            await _mediator.Send(command);
+            return Ok();
+        }
+
 
     }
 }

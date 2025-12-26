@@ -153,6 +153,106 @@
         }
       }
     },
+    "/getOrdersByService": {
+      "get": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "serviceId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OrderEntity"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OrderEntity"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OrderEntity"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getById/{orderId}": {
+      "get": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderWithServicesDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderWithServicesDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderWithServicesDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/export": {
+      "get": {
+        "tags": [
+          "Order"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/paged": {
       "get": {
         "tags": [
@@ -238,7 +338,7 @@
         ],
         "parameters": [
           {
-            "name": "UserId",
+            "name": "userId",
             "in": "query",
             "schema": {
               "type": "string",
@@ -254,7 +354,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/CartItemEntity"
+                    "$ref": "#/components/schemas/CartItemDto"
                   }
                 }
               },
@@ -262,7 +362,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/CartItemEntity"
+                    "$ref": "#/components/schemas/CartItemDto"
                   }
                 }
               },
@@ -270,7 +370,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/CartItemEntity"
+                    "$ref": "#/components/schemas/CartItemDto"
                   }
                 }
               }
@@ -426,6 +526,60 @@
           }
         }
       }
+    },
+    "/{serviceId}": {
+      "delete": {
+        "tags": [
+          "Services"
+        ],
+        "parameters": [
+          {
+            "name": "serviceId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/editService": {
+      "post": {
+        "tags": [
+          "Services"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditServiceCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditServiceCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditServiceCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -448,7 +602,7 @@
         },
         "additionalProperties": false
       },
-      "CartItemEntity": {
+      "CartItemDto": {
         "type": "object",
         "properties": {
           "cartItemId": {
@@ -468,6 +622,14 @@
             "format": "int32"
           },
           "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "serviceName": {
+            "type": "string",
+            "nullable": true
+          },
+          "servicePrice": {
             "type": "number",
             "format": "double"
           }
@@ -494,6 +656,24 @@
       "CreateServiceCommand": {
         "type": "object",
         "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EditServiceCommand": {
+        "type": "object",
+        "properties": {
+          "serviceId": {
+            "type": "string",
+            "format": "uuid"
+          },
           "name": {
             "type": "string",
             "nullable": true
@@ -570,6 +750,28 @@
         },
         "additionalProperties": false
       },
+      "OrderServiceEntity": {
+        "type": "object",
+        "properties": {
+          "orderId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "serviceId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "OrderStatus": {
         "enum": [
           0,
@@ -579,6 +781,44 @@
         ],
         "type": "integer",
         "format": "int32"
+      },
+      "OrderWithServicesDto": {
+        "type": "object",
+        "properties": {
+          "orderId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "modifiedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "services": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderServiceEntity"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "ServiceEntity": {
         "type": "object",

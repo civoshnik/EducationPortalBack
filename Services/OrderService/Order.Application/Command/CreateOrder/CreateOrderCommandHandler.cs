@@ -26,10 +26,13 @@ namespace Order.Application.Command.CreateOrder
                 OrderId = Guid.NewGuid(),
                 UserId = request.UserId,
                 Status = OrderStatus.Confirmed,
-                CreatedAt = DateTime.UtcNow
+                CreatedAt = DateTime.UtcNow,
+                TotalPrice = 0
             };
 
             await _unitOfWork.Orders.AddAsync(order, cancellationToken);
+
+            decimal total = 0;
 
             foreach (var s in request.Services)
             {
@@ -40,8 +43,12 @@ namespace Order.Application.Command.CreateOrder
                     Quantity = s.Quantity,
                     TotalPrice = s.Price * s.Quantity
                 };
+
+                total += orderService.TotalPrice;
+
                 await _unitOfWork.OrderServices.AddAsync(orderService, cancellationToken);
             }
+            order.TotalPrice = total;
 
             var items = await _unitOfWork.CartItems
                 .Where(ci => ci.UserId == request.UserId)
@@ -50,7 +57,9 @@ namespace Order.Application.Command.CreateOrder
             _unitOfWork.CartItems.RemoveRange(items);
 
             await _unitOfWork.SaveChangesAsync(cancellationToken);
+
             return order.OrderId;
         }
+
     }
 }

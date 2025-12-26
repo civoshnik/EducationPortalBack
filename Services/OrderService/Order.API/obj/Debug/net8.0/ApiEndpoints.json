@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "Order.API.Controllers.ServicesController",
+    "Method": "DeleteService",
+    "RelativePath": "{serviceId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Order.API.Controllers.ServicesController",
     "Method": "AddToCart",
     "RelativePath": "AddToCart",
     "HttpMethod": "POST",
@@ -59,6 +75,58 @@
   },
   {
     "ContainingType": "Order.API.Controllers.ServicesController",
+    "Method": "EditService",
+    "RelativePath": "editService",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Order.Application.Command.EditService.EditServiceCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Order.API.Controllers.OrderController",
+    "Method": "ExportOrders",
+    "RelativePath": "export",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Order.API.Controllers.OrderController",
+    "Method": "GetOrderById",
+    "RelativePath": "getById/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Order.Application.Queries.GetOrderById.OrderWithServicesDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Order.API.Controllers.ServicesController",
     "Method": "GetCart",
     "RelativePath": "getCart",
     "HttpMethod": "GET",
@@ -66,14 +134,40 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "UserId",
+        "Name": "userId",
         "Type": "System.Guid",
         "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Order.Domain.Models.CartItemEntity, Order.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[CartItemDto, Order.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Order.API.Controllers.OrderController",
+    "Method": "GetOrdersByService",
+    "RelativePath": "getOrdersByService",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Order.Domain.Models.OrderEntity, Order.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

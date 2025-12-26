@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Order.Application.Queries.GetUserCart
 {
-    public class GetUserCartQueryHandler : IRequestHandler<GetUserCartQuery, List<CartItemEntity>>
+    public class GetUserCartQueryHandler : IRequestHandler<GetUserCartQuery, List<CartItemDto>>
     {
         private readonly IUnitOfWork _unitOfWork;
 
@@ -19,14 +19,28 @@ namespace Order.Application.Queries.GetUserCart
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<List<CartItemEntity>> Handle(GetUserCartQuery request, CancellationToken cancellationToken)
+        public async Task<List<CartItemDto>> Handle(GetUserCartQuery request, CancellationToken cancellationToken)
         {
             var items = await _unitOfWork.CartItems
                 .Where(ci => ci.UserId == request.UserId)
+                .Join(_unitOfWork.Services,
+                      ci => ci.ServiceId,
+                      s => s.ServiceId,
+                      (ci, s) => new CartItemDto
+                      {
+                          CartItemId = ci.CartItemId,
+                          UserId = ci.UserId,
+                          ServiceId = ci.ServiceId,
+                          Quantity = ci.Quantity,
+                          Price = ci.Price,
+                          ServiceName = s.Name,
+                          ServicePrice = s.Price
+                      })
                 .ToListAsync(cancellationToken);
 
             return items;
         }
     }
+
 
 }

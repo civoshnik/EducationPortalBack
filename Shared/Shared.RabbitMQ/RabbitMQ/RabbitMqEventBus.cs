@@ -32,7 +32,7 @@ namespace Shared.RabbitMQ.RabbitMQ
             var eventJson = JsonSerializer.Serialize(@event, @event.GetType(), _jsonOptions);
             var body = Encoding.UTF8.GetBytes(eventJson);
 
-            Console.WriteLine($"📤 Отправка события {eventName}: {eventJson}");
+            Console.WriteLine($"Отправка события {eventName}: {eventJson}");
 
             var props = new BasicProperties
             {
@@ -64,7 +64,7 @@ namespace Shared.RabbitMQ.RabbitMQ
             consumer.ReceivedAsync += async (_, ea) =>
             {
                 var json = Encoding.UTF8.GetString(ea.Body.ToArray());
-                Console.WriteLine($"📥 Получено сообщение: {json}");
+                Console.WriteLine($"Получено сообщение: {json}");
 
                 try
                 {
@@ -74,20 +74,18 @@ namespace Shared.RabbitMQ.RabbitMQ
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"❌ Ошибка обработки сообщения: {ex.Message}");
+                    Console.WriteLine($"Ошибка обработки сообщения: {ex.Message}");
                 }
                 finally
                 {
-                    // ✅ Всегда подтверждаем, чтобы сообщение не зацикливалось
                     await channel.BasicAckAsync(ea.DeliveryTag, false);
                 }
             };
 
             await channel.BasicConsumeAsync(queueName, autoAck: false, consumer: consumer);
-            Console.WriteLine($"✅ Подписан на событие {eventName} (очередь: {queueName})");
+            Console.WriteLine($"Подписан на событие {eventName} (очередь: {queueName})");
         }
 
-        // ✅ Новый метод для очистки очереди вручную
         public async Task PurgeQueueAsync<TEvent>() where TEvent : IIntegrationEvent
         {
             var channel = await _connection.CreateChannelAsync();
@@ -96,11 +94,11 @@ namespace Shared.RabbitMQ.RabbitMQ
             try
             {
                 await channel.QueuePurgeAsync(queueName);
-                Console.WriteLine($"🧹 Очередь {queueName} очищена");
+                Console.WriteLine($"Очередь {queueName} очищена");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"❌ Не удалось очистить очередь {queueName}: {ex.Message}");
+                Console.WriteLine($"Не удалось очистить очередь {queueName}: {ex.Message}");
             }
         }
     }

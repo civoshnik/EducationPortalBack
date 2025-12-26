@@ -5,8 +5,12 @@ using Auth.Application.Commands.DeleteUser;
 using Auth.Application.Commands.EditEmailUser;
 using Auth.Application.Commands.EditPhoneUser;
 using Auth.Application.Commands.RegisterUser;
+using Auth.Application.Commands.SetAdmin;
+using Auth.Application.Commands.SetStudent;
 using Auth.Application.Commands.SetUserBlackList;
 using Auth.Application.Queries;
+using Auth.Application.Queries.GetPaginatedAdminList;
+using Auth.Application.Queries.GetPaginatedBlackList;
 using Auth.Application.Queries.GetPaginatedStudentList;
 using Auth.Application.Queries.GetPaginatedTeacherList;
 using Auth.Application.Queries.GetUser;
@@ -15,6 +19,7 @@ using Course.Domain.Models;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Shared.Application.Models;
 
 namespace Auth.API.Controllers
 {
@@ -55,6 +60,13 @@ namespace Auth.API.Controllers
         public async Task<ActionResult<List<UserEntity>>> GetPageGetPaginatedSrudentList([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
             var result = await _mediator.Send(new GetPaginatedStudentListQuery(page, pageSize));
+            return Ok(result);
+        }
+
+        [HttpGet("paginatedAdminList")]
+        public async Task<ActionResult<List<UserEntity>>> GetPageGetPaginatedAdminList([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        {
+            var result = await _mediator.Send(new GetPaginatedAdminListQuery(page, pageSize));
             return Ok(result);
         }
 
@@ -110,5 +122,29 @@ namespace Auth.API.Controllers
             await _mediator.Send(new CancelUserBlackListQuery { UserId = userId });
             return Ok();
         }
+
+        [HttpGet("paginatedBlackList")]
+        public async Task<ActionResult<PaginatedResult<BlacklistUserDto>>> GetPaginatedBlackList([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        {
+            var result = await _mediator.Send(new GetPaginatedBlackListQuery(page, pageSize));
+            return Ok(result);
+        }
+
+        [HttpPost("setStudent/{userId}")]
+        public async Task<IActionResult> SetStudent(Guid userId)
+        {
+            await _mediator.Send(new SetStudentCommand(userId));
+            return Ok();
+        }
+
+        [HttpPost("setAdmin/{userId}")]
+        public async Task<IActionResult> SetAdmin(Guid userId)
+        {
+            await _mediator.Send(new SetAdminCommand(userId));
+            return Ok();
+        }
+
+
+
     }
 }

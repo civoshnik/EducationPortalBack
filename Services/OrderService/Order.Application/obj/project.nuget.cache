@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "G9aKHzZjdg4=",
+  "dgSpecHash": "c6n/P23zSew=",
   "success": true,
   "projectFilePath": "D:\\CSharp\\Kursach\\EducationPortal\\Services\\OrderService\\Order.Application\\Order.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LexA\\.nuget\\packages\\closedxml\\0.105.0\\closedxml.0.105.0.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\closedxml.parser\\2.0.0\\closedxml.parser.2.0.0.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\documentformat.openxml\\3.1.1\\documentformat.openxml.3.1.1.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\documentformat.openxml.framework\\3.1.1\\documentformat.openxml.framework.3.1.1.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.0\\fluentvalidation.dependencyinjectionextensions.12.1.0.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\mediatr\\13.0.0\\mediatr.13.0.0.nupkg.sha512",
@@ -34,14 +39,17 @@
     "C:\\Users\\LexA\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
     "C:\\Users\\LexA\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
-    "C:\\Users\\LexA\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\LexA\\.nuget\\packages\\rbush.signed\\4.0.0\\rbush.signed.4.0.0.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\LexA\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Shared.Infrastructure depends on Microsoft.Extensions.Configuration (>= 8.0.1) but Microsoft.Extensions.Configuration 8.0.1 was not found. Microsoft.Extensions.Configuration 9.0.0 was resolved instead.",
+      "message": "Shared.Infrastructure зависит от Microsoft.Extensions.Configuration (>= 8.0.1), но версия Microsoft.Extensions.Configuration 8.0.1 не найдена. Использовалась версия Microsoft.Extensions.Configuration 9.0.0.",
       "libraryId": "Microsoft.Extensions.Configuration",
       "targetGraphs": [
         "net8.0"
@@ -51,7 +59,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 13.0.0 was resolved.",
+      "message": "Версия обнаруженного пакета нарушает ограничение зависимости: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 требуется MediatR (>= 11.0.0 && < 12.0.0), но в результате разрешения получена версия MediatR 13.0.0.",
       "libraryId": "MediatR",
       "targetGraphs": [
         "net8.0"

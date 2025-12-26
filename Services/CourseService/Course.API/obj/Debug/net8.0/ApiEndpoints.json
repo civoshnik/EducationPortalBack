@@ -84,6 +84,115 @@
     ]
   },
   {
+    "ContainingType": "Course.API.Controllers.QuestionController",
+    "Method": "GetQuestionById",
+    "RelativePath": "{questionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Course.Domain.Models.QuestionEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Course.API.Controllers.TestController",
+    "Method": "GetQuestions",
+    "RelativePath": "{testId}/questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Course.Domain.Models.QuestionEntity, Course.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Course.API.Controllers.TestController",
+    "Method": "GetQuestionsWithAnswers",
+    "RelativePath": "{testId}/questions-with-answers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[QuestionWithAnswersDto, Course.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Course.API.Controllers.TestController",
+    "Method": "Submit",
+    "RelativePath": "{testId}/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Course.API.Controllers.SubmitDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Course.Application.Commands.SubmitTest.SubmitResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Course.API.Controllers.CourseController",
     "Method": "GetUserCourses",
     "RelativePath": "{userId}/courses",
@@ -126,6 +235,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Course.API.Controllers.TestController",
+    "Method": "GetTestsByCourse",
+    "RelativePath": "byCourse/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Course.Domain.Models.TestEntity, Course.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Course.API.Controllers.LessonController",
     "Method": "CreateLesson",
     "RelativePath": "create",
@@ -152,6 +287,70 @@
       {
         "Name": "command",
         "Type": "Course.Application.Commands.CreateCourse.CreateCourseCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Course.API.Controllers.QuestionController",
+    "Method": "CreateQuestion",
+    "RelativePath": "createQuestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Course.Application.Commands.CreateQuestion.CreateQuestionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Course.API.Controllers.CourseController",
+    "Method": "CreateTest",
+    "RelativePath": "createTest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Course.Application.Commands.CreateTest.CreateTestCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Course.API.Controllers.QuestionController",
+    "Method": "DeleteQuestion",
+    "RelativePath": "deleteQuestion/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Course.API.Controllers.CourseController",
+    "Method": "DeleteTest",
+    "RelativePath": "deleteTest/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -216,6 +415,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Course.API.Controllers.QuestionController",
+    "Method": "EditQuestion",
+    "RelativePath": "editQuestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Course.Application.Commands.EditQuestion.EditQuestionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Course.API.Controllers.CourseController",
+    "Method": "EditTest",
+    "RelativePath": "editTest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Course.Application.Commands.EditTest.EditTestCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Course.API.Controllers.CourseController",
     "Method": "Enroll",
     "RelativePath": "enroll",
@@ -235,6 +466,46 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Course.API.Controllers.LessonController",
+    "Method": "GetLessons",
+    "RelativePath": "getLessonList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Course.Domain.Models.LessonEntity, Course.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Course.API.Controllers.CourseController",
+    "Method": "GetTestsList",
+    "RelativePath": "getTestsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Course.Domain.Models.TestEntity, Course.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Course.API.Controllers.CourseController",
@@ -367,6 +638,37 @@
   },
   {
     "ContainingType": "Course.API.Controllers.CourseController",
+    "Method": "GetPaginatedTestList",
+    "RelativePath": "paginatedTestList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.Application.Models.PaginatedResult\u00601[[Course.Domain.Models.CourseEntity, Course.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Course.API.Controllers.CourseController",
     "Method": "UpdateProgress",
     "RelativePath": "progress",
     "HttpMethod": "POST",
@@ -390,5 +692,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Course.API.Controllers.TestController",
+    "Method": "GetTestById",
+    "RelativePath": "testDetail/{testId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Course.Domain.Models.TestEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

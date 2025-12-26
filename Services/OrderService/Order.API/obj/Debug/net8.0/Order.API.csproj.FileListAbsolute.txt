@@ -229,3 +229,11 @@ D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\obj\Debug\net8
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\obj\Debug\net8.0\Order.API.genruntimeconfig.cache
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\obj\Debug\net8.0\ref\Order.API.dll
 D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\ClosedXML.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\ClosedXML.Parser.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\ExcelNumberFormat.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\RBush.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\SixLabors.Fonts.dll
+D:\CSharp\Kursach\EducationPortal\Services\OrderService\Order.API\bin\Debug\net8.0\System.IO.Packaging.dll

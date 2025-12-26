@@ -27,6 +27,7 @@ namespace Auth.Application.Commands.SetUserBlackList
             targetUser.ModifiedAt = DateTime.UtcNow;
 
             await _unitOfWork.Blacklist.AddAsync(blackUser, cancellationToken);
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
         }
     }
 }

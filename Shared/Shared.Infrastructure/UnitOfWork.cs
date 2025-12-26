@@ -5,7 +5,6 @@ using Enrollment.Domain.Models;
 using Result.Domain.Models;
 using Order.Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using Email.Domain;
 
 namespace Shared.Infrastructure
 {

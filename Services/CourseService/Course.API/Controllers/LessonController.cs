@@ -1,7 +1,9 @@
-﻿using Course.Application.Commands.Lessons.CreateLesson;
+﻿using Course.Application.Commands.GetCourseList;
+using Course.Application.Commands.Lessons.CreateLesson;
 using Course.Application.Commands.Lessons.DeleteLesson;
 using Course.Application.Commands.Lessons.UpdateLesson;
 using Course.Application.Queries.GetLessonForAdmin;
+using Course.Application.Queries.GetLessonListQuery;
 using Course.Application.Queries.GetPaginatedLessonList;
 using Course.Domain.Models;
 using MediatR;
@@ -52,6 +54,13 @@ namespace Course.API.Controllers
         {
             await _mediator.Send(command);
             return Ok();
+        }
+
+        [HttpGet("getLessonList")]
+        public async Task<ActionResult<List<LessonEntity>>> GetLessons()
+        {
+            var result = await _mediator.Send(new GetLessonListQuery());
+            return Ok(result);
         }
     }
 }

@@ -14,6 +14,13 @@ using Course.Application.Commands.EditCourse;
 using Course.Application.Commands.GetCourseList;
 using Course.Application.Commands.EnrollCourse;
 using Course.Application.Commands.UpdateProgress;
+using Course.Application.Queries.GetPaginatedTestList;
+using Course.Application.Queries.GetTestById;
+using Course.Application.Commands.CreateTest;
+using Course.Application.Commands.CreateQuestion;
+using Course.Application.Commands.EditTest;
+using Course.Application.Commands.DeleteTest;
+using Course.Application.Queries.GetTestList;
 namespace Course.API.Controllers
 {
     public class CourseController : ControllerBase
@@ -106,6 +113,49 @@ namespace Course.API.Controllers
         public async Task<ActionResult<List<CourseEntity>>> GetCourses()
         {
             var result = await _mediator.Send(new GetCourseListSelectQuery());
+            return Ok(result);
+        }
+
+        [HttpGet("paginatedTestList")]
+        public async Task<ActionResult<PaginatedResult<CourseEntity>>> GetPaginatedTestList([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+        {
+            var result = await _mediator.Send(new GetPaginatedTestListQuery(page, pageSize));
+            return Ok(result);
+        }
+
+        //[HttpGet("testDetail/{testId}")]
+        //public async Task<ActionResult<TestEntity>> GetTestById(Guid testId, CancellationToken cancellationToken)
+        //{
+        //    var query = new GetTestByIdQuery { TestId = testId };
+        //    var test = await _mediator.Send(query, cancellationToken);
+        //    return Ok(test);
+        //}
+
+        [HttpPost("createTest")] 
+        public async Task<IActionResult> CreateTest([FromBody] CreateTestCommand command) 
+        {
+            await _mediator.Send(command); 
+            return Ok(); 
+        }
+
+        [HttpPost("editTest")]
+        public async Task<IActionResult> EditTest([FromBody] EditTestCommand command) 
+        { 
+            await _mediator.Send(command);
+            return Ok(); 
+        }
+
+        [HttpDelete("deleteTest/{id}")] 
+        public async Task<IActionResult> DeleteTest(Guid id) 
+        {
+            await _mediator.Send(new DeleteTestCommand { TestId = id });
+            return Ok(); 
+        }
+
+        [HttpGet("getTestsList")]
+        public async Task<ActionResult<List<TestEntity>>> GetTestsList()
+        {
+            var result = await _mediator.Send(new GetTestListQuery());
             return Ok(result);
         }
     }

@@ -2,6 +2,8 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Order.Application.Command.CreateOrder;
+using Order.Application.Command.ExportOrdersToExcel;
+using Order.Application.Queries.GetOrderById;
 using Order.Application.Queries.GetOrdersByService;
 using Order.Application.Queries.GetPaginatedOrder;
 using Order.Application.Queries.GetUserOrders;
@@ -52,6 +54,26 @@ namespace Order.API.Controllers
             var result = await _mediator.Send(new GetOrdersByServiceQuery { ServiceId = serviceId });
             return Ok(result);
         }
+
+        [HttpGet("getById/{orderId}")]
+        public async Task<ActionResult<OrderWithServicesDto>> GetOrderById(Guid orderId)
+        {
+            var order = await _mediator.Send(new GetOrderByIdQuery(orderId));
+
+            if (order == null)
+                return NotFound();
+
+            return Ok(order);
+        }
+
+        [HttpGet("export")] 
+        public async Task<IActionResult> ExportOrders() 
+        { 
+            var fileBytes = await _mediator.Send(new ExportOrdersToExcelCommand()); 
+            return File(fileBytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "orders.xlsx");
+        }
+
+
 
 
     }

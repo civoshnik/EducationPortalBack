@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "Auth.API.Controllers.AuthController",
+    "Method": "CancelBlackList",
+    "RelativePath": "cancelUserBlackList/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auth.API.Controllers.AuthController",
     "Method": "Confirm",
     "RelativePath": "confirm",
     "HttpMethod": "GET",
@@ -112,6 +128,68 @@
   },
   {
     "ContainingType": "Auth.API.Controllers.AuthController",
+    "Method": "GetPageGetPaginatedAdminList",
+    "RelativePath": "paginatedAdminList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Auth.Domain.Models.UserEntity, Auth.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Auth.API.Controllers.AuthController",
+    "Method": "GetPaginatedBlackList",
+    "RelativePath": "paginatedBlackList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.Application.Models.PaginatedResult\u00601[[BlacklistUserDto, Auth.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Auth.API.Controllers.AuthController",
     "Method": "GetPageGetPaginatedSrudentList",
     "RelativePath": "paginatedStudentList",
     "HttpMethod": "GET",
@@ -183,6 +261,54 @@
       {
         "Name": "command",
         "Type": "Auth.Application.Commands.RegisterUser.RegisterUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auth.API.Controllers.AuthController",
+    "Method": "SetAdmin",
+    "RelativePath": "setAdmin/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auth.API.Controllers.AuthController",
+    "Method": "SetStudent",
+    "RelativePath": "setStudent/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auth.API.Controllers.AuthController",
+    "Method": "SetBlackList",
+    "RelativePath": "setUserBlackList/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],

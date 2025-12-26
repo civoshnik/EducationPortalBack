@@ -8,7 +8,7 @@ using Order.Domain.Models;
 
 namespace Order.Application.Queries.GetUserCart
 {
-    public record GetUserCartQuery : IRequest<List<CartItemEntity>>
+    public record GetUserCartQuery : IRequest<List<CartItemDto>>
     {
         public Guid UserId { get; set; }
     }

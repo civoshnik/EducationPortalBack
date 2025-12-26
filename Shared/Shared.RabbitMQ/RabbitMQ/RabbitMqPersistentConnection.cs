@@ -16,17 +16,14 @@ namespace Shared.RabbitMQ.RabbitMQ
                 Password = options.Password,
                 Port = options.Port,
 
-                // Устанавливаем таймаут рукопожатия, например, 60 секунд (по умолчанию ~30)
                 HandshakeContinuationTimeout = TimeSpan.FromSeconds(60),
 
-                // Устанавливаем таймаут соединения (если используется для синхронного подключения)
                 RequestedConnectionTimeout = TimeSpan.FromSeconds(60)
             };
         }
 
         public async Task<IChannel> CreateChannelAsync(CancellationToken cancellationToken = default)
         {
-            // Используйте асинхронную версию:
             IConnection connection = await _factory.CreateConnectionAsync(cancellationToken);
             return await connection.CreateChannelAsync(cancellationToken: cancellationToken);
         }

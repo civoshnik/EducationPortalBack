@@ -1,14 +1,8 @@
-﻿using Course.Domain.Models;
-using MediatR;
+﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Order.Domain.Models;
 using Shared.Application.Interfaces;
 using Shared.Application.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Order.Application.Queries.GetPaginatedOrder
 {
